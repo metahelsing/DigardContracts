@@ -1,0 +1,794 @@
+[
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ChestOpen",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "ownerAddress",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "tokenUri",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "chestTokenId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "winTokenId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "dropChange",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PackageOpen",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "packageTokenId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "ownerAddress",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "tokenUri",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PackageOpenWithAmount",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "packageTokenId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "ownerAddress",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "tokenUri",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveChest",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "chestCollectionAddress",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "chestItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "collectionAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "chestItemId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "minChance"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "maxChance"
+                    },
+                    {
+                        "type": "uint256[]",
+                        "name": "tokenIds"
+                    },
+                    {
+                        "type": "uint8",
+                        "name": "rarity"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SavePackage",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "packageCollectionAddress",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "packageItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "maxOwnedAmount"
+                    },
+                    {
+                        "type": "address",
+                        "name": "collectionAddress"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "DEFAULT_ADMIN_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "PAUSER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "UPGRADER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "gRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "getChest",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "tokenId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "tuple",
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "chestCollectionAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "tuple[]",
+                        "name": "chestItems",
+                        "components": [
+                            {
+                                "type": "address",
+                                "name": "collectionAddress"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "chestItemId"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "minChance"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "maxChance"
+                            },
+                            {
+                                "type": "uint256[]",
+                                "name": "tokenIds"
+                            },
+                            {
+                                "type": "uint8",
+                                "name": "rarity"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getRoleAdmin",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "grantRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "hasRole",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "initialize",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "openAllChest",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "tokenId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "openChest",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "tokenId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "openPackage",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "tokenId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "pause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "paused",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "proxiableUUID",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "renounceRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "revokeRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveChests",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "tuple[]",
+                "name": "__chests",
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "chestCollectionAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "tuple[]",
+                        "name": "chestItems",
+                        "components": [
+                            {
+                                "type": "address",
+                                "name": "collectionAddress"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "chestItemId"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "minChance"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "maxChance"
+                            },
+                            {
+                                "type": "uint256[]",
+                                "name": "tokenIds"
+                            },
+                            {
+                                "type": "uint8",
+                                "name": "rarity"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "savePackages",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "tuple[]",
+                "name": "__packages",
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "packageCollectionAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "tuple[]",
+                        "name": "packageItems",
+                        "components": [
+                            {
+                                "type": "uint256",
+                                "name": "tokenId"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "amount"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "maxOwnedAmount"
+                            },
+                            {
+                                "type": "address",
+                                "name": "collectionAddress"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "supportsInterface",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes4",
+                "name": "interfaceId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "unpause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeTo",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeToAndCall",
+        "constant": false,
+        "stateMutability": "payable",
+        "payable": true,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            },
+            {
+                "type": "bytes",
+                "name": "data"
+            }
+        ],
+        "outputs": []
+    }
+]

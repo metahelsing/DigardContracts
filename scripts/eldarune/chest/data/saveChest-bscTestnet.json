@@ -1,0 +1,256 @@
+[
+  {
+    "chestCollectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "tokenId": 1,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 738,
+        "tokenIds": [1130, 1150, 1160, 1180, 1190, 1370],
+        "rarity": 1
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 739,
+        "maxChance": 987,
+        "tokenIds": [1200, 1210, 1220, 1230, 1240, 1410],
+        "rarity": 2
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 3,
+        "minChance": 988,
+        "maxChance": 1000,
+        "tokenIds": [
+          1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+        ],
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "chestCollectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "tokenId": 2,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 920,
+        "tokenIds": [
+          1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+        ],
+        "rarity": 3
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 921,
+        "maxChance": 995,
+        "tokenIds": [1140, 1310, 1320, 1340],
+        "rarity": 4
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 3,
+        "minChance": 996,
+        "maxChance": 1000,
+        "tokenIds": [
+          1000, 1010, 1020, 1030, 1040, 1060, 1070, 1080, 1090, 1100, 1110,
+          1120, 1350, 1360
+        ],
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "chestCollectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "tokenId": 3,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 750,
+        "tokenIds": [
+          1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+        ],
+        "rarity": 3
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 751,
+        "maxChance": 970,
+        "tokenIds": [1140, 1310, 1320, 1340],
+        "rarity": 4
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 3,
+        "minChance": 971,
+        "maxChance": 1000,
+        "tokenIds": [
+          1000, 1010, 1020, 1030, 1040, 1060, 1070, 1080, 1090, 1100, 1110,
+          1120, 1350, 1360
+        ],
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "chestCollectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "tokenId": 4,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 940,
+        "tokenIds": [1140, 1310, 1320, 1340],
+        "rarity": 4
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 941,
+        "maxChance": 1000,
+        "tokenIds": [
+          1000, 1010, 1020, 1030, 1040, 1060, 1070, 1080, 1090, 1100, 1110,
+          1120, 1350, 1360
+        ],
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "chestCollectionAddress": "0xcEF0747Ef40423a9C468591FDCf093574432BEac",
+    "tokenId": 5,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 738,
+        "tokenIds": [1130, 1150, 1160, 1180, 1190, 1370],
+        "rarity": 1
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 739,
+        "maxChance": 987,
+        "tokenIds": [1200, 1210, 1220, 1230, 1240, 1410],
+        "rarity": 2
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 3,
+        "minChance": 988,
+        "maxChance": 1000,
+        "tokenIds": [
+          1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+        ],
+        "rarity": 3
+      }
+    ]
+  },
+  {
+    "chestCollectionAddress": "0xcEF0747Ef40423a9C468591FDCf093574432BEac",
+    "tokenId": 6,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 920,
+        "tokenIds": [
+          1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+        ],
+        "rarity": 3
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 921,
+        "maxChance": 995,
+        "tokenIds": [1140, 1310, 1320, 1340],
+        "rarity": 4
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 3,
+        "minChance": 996,
+        "maxChance": 1000,
+        "tokenIds": [
+          1000, 1010, 1020, 1030, 1040, 1060, 1070, 1080, 1090, 1100, 1110,
+          1120, 1350, 1360
+        ],
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "chestCollectionAddress": "0xcEF0747Ef40423a9C468591FDCf093574432BEac",
+    "tokenId": 7,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 750,
+        "tokenIds": [
+          1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+        ],
+        "rarity": 3
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 751,
+        "maxChance": 970,
+        "tokenIds": [1140, 1310, 1320, 1340],
+        "rarity": 4
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 3,
+        "minChance": 971,
+        "maxChance": 1000,
+        "tokenIds": [
+          1000, 1010, 1020, 1030, 1040, 1060, 1070, 1080, 1090, 1100, 1110,
+          1120, 1350, 1360
+        ],
+        "rarity": 5
+      }
+    ]
+  },
+  {
+    "chestCollectionAddress": "0xcEF0747Ef40423a9C468591FDCf093574432BEac",
+    "tokenId": 8,
+    "chestItems": [
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 1,
+        "minChance": 1,
+        "maxChance": 940,
+        "tokenIds": [1140, 1310, 1320, 1340],
+        "rarity": 4
+      },
+      {
+        "collectionAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "chestItemId": 2,
+        "minChance": 941,
+        "maxChance": 1000,
+        "tokenIds": [
+          1000, 1010, 1020, 1030, 1040, 1060, 1070, 1080, 1090, 1100, 1110,
+          1120, 1350, 1360
+        ],
+        "rarity": 5
+      }
+    ]
+  }
+]

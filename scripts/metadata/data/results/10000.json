@@ -1,0 +1,15 @@
+{
+    "name": "Basic Amulet",
+    "description": "Basic Amulet",
+    "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/10000.png",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Item"
+        },
+        {
+            "trait_type": "Level",
+            "value": "1"
+        }
+    ]
+}

@@ -1,0 +1,470 @@
+[
+    {
+        "networkName": "bscTestnet",
+        "contracts": [
+            {
+                "name": "EldaruneRewardPool",
+                "address": "0xB8b1f3b375BE2f8D6EB1bbF14D00Bcc0A80EAAd3"
+            },
+            {
+                "name": "EldaruneGameCollection",
+                "address": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA"
+            },
+            {
+                "name": "DigardClaim",
+                "address": "0x41D9C95Bf8bD95a7c08FaBDF1cB35eE1DEc0EFBd"
+            },
+            {
+                "name": "ELDAPool1",
+                "address": "0xa1b138a010238284fa3bB6802f71Fd29fA371998"
+            },
+            {
+                "name": "ELDAPool2",
+                "address": "0x2398191dDCd90F79c3cA03f581ce138072C33Ccd"
+            },
+            {
+                "name": "ELDAPool3",
+                "address": "0x0818FaB3bE714aCDd3e526a05Dd5A49356444d2C"
+            },
+            {
+                "name": "EldaPoolManager",
+                "address": "0x3360f7D5639d1ce7d8BF623456e00B6c1833D65a"
+            },
+            {
+                "name": "EldaruneChest",
+                "address": "0x3D967255648d9Ba2C2fFe3D11D9683f735E9D9F5"
+            },
+            {
+                "name": "EldaruneUtilityCollection",
+                "address": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0"
+            },
+            {
+                "name": "EldaruneUtilityCollectionStaking",
+                "address": "0xfE650B1bD18894F8CbC13DC52777884a1FA5135f"
+            },
+            {
+                "name": "EldarunesTokenBoostCollection",
+                "address": "0x88085aE627841aFDc8F000C13051037A862873CE"
+            },
+            {
+                "name": "AlecSale",
+                "address": "0x1DD6BC628b6ef1b4b2C1EB299cc9D121C17f218a"
+            },
+            {
+                "name": "DigardWorkshop",
+                "address": "0x9F76D99Fe13Fe0d0A802A40f94Ea8c00D16a42B0"
+            },
+            {
+                "name": "DigardStore",
+                "address": "0x6E4E865a8C68dcf4646aa86dB2Bdc1048c3e8299"
+            },
+            {
+                "name": "EldaruneS",
+                "address": "0xcEF0747Ef40423a9C468591FDCf093574432BEac"
+            },
+            {
+                "name": "ELDAToken",
+                "address": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70"
+            },
+            {
+                "name": "DigardNFTWhitelist",
+                "address": "0x7925d31Ab8Aa2319c89931FF94AFCC0AEDD83fe8"
+            },
+            {
+                "name": "EldaruneJourney",
+                "address": "0xCC43017EB8F8b749312eB87969f4649E81F16DB7"
+            }
+        ]
+    },
+    {
+        "networkName": "sepolia",
+        "contracts": [
+            {
+                "name": "EldaruneUtilityBox",
+                "address": "0xbB6694C632A3e3ceE65EB97Ab4947F36eC785D7a"
+            }
+        ]
+    },
+    {
+        "networkName": "mainnet",
+        "contracts": [
+            {
+                "name": "EldaruneUtilityBox",
+                "address": "0x4cbC17f3b127B20cbb254537a9f43e187b977af1"
+            },
+            {
+                "name": "EldaruneUtilityCollection",
+                "address": "0x1db3CaD7dF841649e535f406C1c18458c7A4eaB2"
+            }
+        ]
+    },
+    {
+        "networkName": "goerli",
+        "contracts": [
+            {
+                "name": "ELDAToken",
+                "address": "0xffD564ad6a05B07cA291373BB98DE354a48cEcd7"
+            },
+            {
+                "name": "EldaruneUtilityBox",
+                "address": "0x54DCac0E51d7E67F5836e70adc822d6fe965E613"
+            },
+            {
+                "name": "EldaruneUtilityCollectionOld",
+                "address": "0xe1c34436bDb6d7FFE51C64F7d3DE089A880e0008"
+            },
+            {
+                "name": "EldaruneUtilityStaking",
+                "address": "0x1eFD4533A2d15d2663BedEEb3b720AE82959F99B"
+            },
+            {
+                "name": "DigardWorkshop",
+                "address": "0x876851943489Eab88EC2ca64AdDC4bcd0102c86A"
+            },
+            {
+                "name": "EldaruneGameCollection",
+                "address": "0x51d54dc3b9ebdD107660055841334893370a1a5b"
+            },
+            {
+                "name": "DigardClaim",
+                "address": "0x6493cAE98C2B0865F302fe76Fa1eAD529441dB6E"
+            },
+            {
+                "name": "AlecSale",
+                "address": "0x51FF366f8Df1fb8C2cAf4d9a05524086B2D3D151"
+            },
+            {
+                "name": "ELDAPool1",
+                "address": "0x70849920C8399B54fFEF173adb1cfFFf278d7411"
+            },
+            {
+                "name": "ELDAPool2",
+                "address": "0xfE3cD4b61F9BFec06E74dd4F5947A8e48416bC95"
+            },
+            {
+                "name": "ELDAPool3",
+                "address": "0x6C27A4662446061efbd74681864D7E23503bD49e"
+            },
+            {
+                "name": "ELDAPool4",
+                "address": "0xA161C09a26db8F56B54E3e5E26A34445daEf19d5"
+            },
+            {
+                "name": "ELDAPool5",
+                "address": "0x61E659DaB6bE3c09c1F97Bf76A0f88d85FA2e6a0"
+            },
+            {
+                "name": "ELDAPool6",
+                "address": "0x4e5E4DE6a4720AFBE708BfCF3EC10Bdc1087C15a"
+            },
+            {
+                "name": "EldaPoolManager",
+                "address": "0x5fD12Ac4A6eAd1102adD1ed463e3da48d51F5cF2"
+            },
+            {
+                "name": "EldaruneUtilityCollection",
+                "address": "0xBd4acD5Fa2A471008B3E5C6d5eCaD95cF59DAee2"
+            },
+            {
+                "name": "EldaruneChest",
+                "address": "0x19f17B5c3C2e2D3631A3E3e18120d4B5692A9D4f"
+            },
+            {
+                "name": "Test",
+                "address": "0x5d709967ef8d3248245aBFa1939fF8c793DdFcC0"
+            },
+            {
+                "name": "DigardNFTWhitelist",
+                "address": "0x3080Fa033A3bd0C310F3E58500742c11a8f23592"
+            },
+            {
+                "name": "EldaruneUtilityCollectionStaking",
+                "address": "0xD3D0624a5Ee2Bc4c8f4bC69E4d854Ca0C4F9398d"
+            },
+            {
+                "name": "EldaruneS",
+                "address": "0xEF291D4e9d0d25e74dDa896085f2A4422D010889"
+            },
+            {
+                "name": "DigardStorePurchase",
+                "address": "0x40E94564b628Effcf4ff98c4B2fe1AC8eD5c019f"
+            },
+            {
+                "name": "EldaruneJourney",
+                "address": "0xeDD4d5aC1Ea01DE6D13FF7c7704535e2966C9fe1"
+            },
+            {
+                "name": "EldarunesTokenBoostCollection",
+                "address": "0xbF394d233bE89b702329a13c21589DF79D66aF62"
+            }
+        ]
+    },
+    {
+        "networkName": "bsc",
+        "contracts": [
+            {
+                "name": "EldaruneUtilityBox",
+                "address": "0x5dF052bAc0A1D1c0b4b83Aff13D8aCfA124404ED"
+            },
+            {
+                "name": "EldaruneUtilityCollectionOld",
+                "address": "0xA8ab1a4E4bA375a80C6c4C721f30a68B58C40494"
+            },
+            {
+                "name": "ELDAToken",
+                "address": "0xab2ed911BDbeA001FD3B29AdbC35d8a76E68aAe4"
+            },
+            {
+                "name": "EldaruneUtilityStakingOld",
+                "address": "0xab32A8C18508D16c4ceD8495ED171C5939D03F8a"
+            },
+            {
+                "name": "DecubateMasterChef",
+                "address": "0xD10333469BC3F597Fc3B1C9dbf4178B26812Ebc7"
+            },
+            {
+                "name": "EldaruneUtilityStaking",
+                "address": "0x572886c728708e83067A7a622c47BeC99b3391dF"
+            },
+            {
+                "name": "EldaruneGameCollection",
+                "address": "0xB95dA5529D287742E2Efc67A7c8a0088802A4BEC"
+            },
+            {
+                "name": "EldaruneS",
+                "address": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+            },
+            {
+                "name": "AlecSale",
+                "address": "0xf20Aba84F195e2cB8252b18D199209A8cA241812"
+            },
+            {
+                "name": "DigardClaim",
+                "address": "0xe83718Dd5EABc28e4b0710797165005B3d8CCA2d"
+            },
+            {
+                "name": "DigardWorkshopOld",
+                "address": "0xbeA952f7EE9C3EE99415DDA7039c937CfD812590"
+            },
+            {
+                "name": "ELDAPool1",
+                "address": "0xD3f1b17984eF745dB21E5dbaD450d406Df9E7c27"
+            },
+            {
+                "name": "ELDAPool2",
+                "address": "0x76bEDfF39ADA4ab026cbc4EDc0FfB88045329486"
+            },
+            {
+                "name": "ELDAPool3",
+                "address": "0x266BC9C3d7d97185f2F14E4376F1D6713860c2Ae"
+            },
+            {
+                "name": "ELDAPool4",
+                "address": "0xDBB3FC3162CF396264d5E3A2188bf73CFfcF3532"
+            },
+            {
+                "name": "ELDAPool5",
+                "address": "0xEa2f3951AEa75e201bd81F76FB50321b1f07150E"
+            },
+            {
+                "name": "ELDAPool6",
+                "address": "0x510B62E802DbcBE9F8bbd5Db617d2f4926D2eF51"
+            },
+            {
+                "name": "EldaPoolManager",
+                "address": "0x3983dF5Bb0ecdfbf8eA20C08F10f6c542fDA95f5"
+            },
+            {
+                "name": "EldaruneChest",
+                "address": "0x87E9fE434DD6db50DAC22E7326A6eF6c7593e1d3"
+            },
+            {
+                "name": "EldaruneUtilityCollection",
+                "address": "0x4834897652c0C7052270abFfbeD0B4Ec2C5e673C"
+            },
+            {
+                "name": "DigardNFTWhitelist",
+                "address": "0x055f6FDFf130590edE4F676722db7A90E5f006C5"
+            },
+            {
+                "name": "DigardStore",
+                "address": "0x3e88f3c7264E1cAB85b833c49f1A576d2013B8cA"
+            },
+            {
+                "name": "EldaruneUtilityCollectionStaking",
+                "address": "0x1b7581dde5e1a9941e04399e3200B07223925d15"
+            },
+            {
+                "name": "EldaTrader",
+                "address": "0x9995753Ef343250282FBF9ed7d56cA3B22D5E047"
+            },
+            {
+                "name": "EldarunesTokenBoostCollectionOld",
+                "address": "0x21D38Ec6859B9A19681fC55Cd1E378E697fA6B12"
+            },
+            {
+                "name": "EldarunesTokenBoostCollection",
+                "address": "0x304fF14A2DbEFF2CBa26016C98b202fCBAd053A8"
+            },
+            {
+                "name": "DigardWorkshop",
+                "address": "0xCB978482a5648b36665F5Ee20F05C0BC06c23525"
+            },
+            {
+                "name": "ELDAPool7",
+                "address": "0xa53c2808a2802300FbA47f7b03970647D1B4c7Fe"
+            },
+            {
+                "name": "ELDAPool8",
+                "address": "0xB4D1450E82c2F77393d0C720E52d8f689C091ecF"
+            },
+            {
+                "name": "ELDAPool9",
+                "address": "0x7E8ee2462192a155c546DEfc802a28866d363504"
+            },
+            {
+                "name": "ELDAPool10",
+                "address": "0x25C6e1CA8A0c2760E8BC46Eb396c8c3b73Ee45D2"
+            },
+            {
+                "name": "ELDAPool11",
+                "address": "0x68E72Ad7A4b34C90b33b4Bd2f0BAE952995a3a0d"
+            },
+            {
+                "name": "ELDAPool12",
+                "address": "0x622B9CFEE7A090e8c810A3fb71414de6f4f382C0"
+            },
+            {
+                "name": "ELDAPool13",
+                "address": "0xe3dc350cd28c645cf20F42E1e5852C5fD121fF3A"
+            },
+            {
+                "name": "ELDAPool14",
+                "address": "0x67C5f58f7dFF8595337C53C66C03eE149fbdBF9f"
+            },
+            {
+                "name": "ELDAPool15",
+                "address": "0xeA85b5a18E627A69462682b4f3D1Ec893284F811"
+            },
+            {
+                "name": "ELDAPool16",
+                "address": "0xa47B815C8aA26806D7c5b5756FaE436e3e8710E4"
+            },
+            {
+                "name": "ELDAPool17",
+                "address": "0xfc7C479F3148d56d9F8F0cAA15624b2D6aC31A84"
+            },
+            {
+                "name": "ELDAPool18",
+                "address": "0x2f8AECFf5285c37129717cF5b3A5Da5d9e777f24"
+            },
+            {
+                "name": "ELDAPool19",
+                "address": "0x6a0b4043fd68DF0FB40A7b461588e0c48f527F3A"
+            },
+            {
+                "name": "ELDAPool20",
+                "address": "0x24fe9585BC8577847e26676A1D4b1f426D56E30d"
+            },
+            {
+                "name": "ELDAPool21",
+                "address": "0xDaF1C7a6a063712Dea76A15ee85AA4e75AF2d876"
+            },
+            {
+                "name": "ELDAPool22",
+                "address": "0x414E4ab4EB50F7dBF3f35cf9Ee052b9a18704556"
+            },
+            {
+                "name": "ELDAPool23",
+                "address": "0x3578239dbC8624160dad8Fa8B8F51c6c3106396e"
+            },
+            {
+                "name": "ELDAPool24",
+                "address": "0x9Ff72B04D4e76642Aa9E1AbF89829d053E60EC19"
+            },
+            {
+                "name": "ELDAPool25",
+                "address": "0x9a9662efB3F72d76E30D9afF9187a298ACB358b1"
+            },
+            {
+                "name": "ELDAPool26",
+                "address": "0x7300864eA21ef9E41866144437Aea089f9378e0C"
+            },
+            {
+                "name": "ELDAPool27",
+                "address": "0x8416F1006c8dC4a7FeD6faDDE9e81B8064bc12e3"
+            },
+            {
+                "name": "ELDAPool28",
+                "address": "0xa6156da5DfB3b2e60F55092F5c399fE969d2c3ea"
+            },
+            {
+                "name": "EldaruneHoldEarn",
+                "address": "0xc77DE626e128cee181596588c9B1c14F406e38b8"
+            }
+        ]
+    },
+    {
+        "networkName": "localhost",
+        "contracts": [
+            {
+                "name": "ELDAToken",
+                "address": "0x5FbDB2315678afecb367f032d93F642f64180aa3"
+            },
+            {
+                "name": "ELDAPool1",
+                "address": "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0"
+            },
+            {
+                "name": "EldaPoolManager",
+                "address": "0xDc64a140Aa3E981100a9becA4E685f962f0cF6C9"
+            },
+            {
+                "name": "EldaruneGameCollection",
+                "address": "0x0165878A594ca255338adfa4d48449f69242Eb8F"
+            },
+            {
+                "name": "EldaruneStakeGame",
+                "address": "0x2279B7A0a67DB372996a5FaB50D91eAA73d2eBe6"
+            }
+        ]
+    },
+    {
+        "networkName": "fuji",
+        "contracts": [
+            {
+                "name": "Dogelanche",
+                "address": "0x17f4B48F3aD2Ee6a7D12B0bDd4F6567cB208d98f"
+            },
+            {
+                "name": "DigardStore",
+                "address": "0x038e2da01e683fc27b29675a219DBe7CD73a3588"
+            },
+            {
+                "name": "EldaruneRedBoxCollection",
+                "address": "0x6B4d66f190A189bDafA874edED9173130Fa7798d"
+            },
+            {
+                "name": "DigardNFTWhitelist",
+                "address": "0x8aC3319a5B3bdba05eF53Bf382A0722D94C2eEF5"
+            }
+        ]
+    },
+    {
+        "networkName": "avalanche",
+        "contracts": [
+            {
+                "name": "DigardStore",
+                "address": "0x51DE85777EC8366f42580e45bfF8acFFf1E4a47A"
+            },
+            {
+                "name": "DigardNFTWhitelist",
+                "address": "0xEf50f5ef8d4EA2A7e64c0DdB0cC5309ea2A26B00"
+            },
+            {
+                "name": "EldaruneRedBoxCollection",
+                "address": "0xb99a2DcDcb97EF52AcD4C3207F036C67dc202E90"
+            }
+        ]
+    }
+]

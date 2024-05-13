@@ -1,0 +1,359 @@
+[
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaleStoreItem",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "storeItemId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "amount",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "totalPrice",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "totalSoldAmount",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "buyerAddress",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveDigardNftWhitelistContract",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "digardNftWhitelistContract",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SavePaymentContract",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "paymentContract",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveSaleOwner",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newSaleOwner",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveStoreItem",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "storeItemId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "amount",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "price",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "maxPerSoldAmount",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "maxSoldAmount",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "startDate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "endDate",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "nftContract",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            },
+            {
+                "type": "bool",
+                "name": "active",
+                "indexed": false
+            },
+            {
+                "type": "bool",
+                "name": "whitelistEnabled",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveStoreItemDiscount",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "storeItemDiscount",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "storeItemId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "startDate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "endDate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "discountRate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "reamingAmount",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "TransferAmount",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "transferAddress",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    }
+]

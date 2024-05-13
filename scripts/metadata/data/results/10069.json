@@ -1,0 +1,47 @@
+{
+    "name": "Basic Ring",
+    "description": "Basic Ring",
+    "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/10065.png",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Item"
+        },
+        {
+            "trait_type": "Level",
+            "value": "10"
+        },
+        {
+            "text": "Level",
+            "value": "1"
+        },
+        {
+            "text": "Armor",
+            "value": "5"
+        },
+        {
+            "text": "Hit Points",
+            "value": "25"
+        },
+        {
+            "text": "Damage",
+            "value": "5"
+        },
+        {
+            "text": "Level",
+            "value": "6"
+        },
+        {
+            "text": "Armor",
+            "value": "30"
+        },
+        {
+            "text": "Hit Points",
+            "value": "150"
+        },
+        {
+            "text": "Damage",
+            "value": "30"
+        }
+    ]
+}

@@ -1,0 +1,225 @@
+[
+  {
+    "task": {
+      "taskGroupId": 1,
+      "taskId": 1,
+      "lockTime": [0, 0, 5],
+      "numberOfRepetitions": "3",
+      "successRate": 100
+    },
+    "rewards": {
+      "taskId": 1,
+      "rewards": [
+        {
+          "claimRewardContractIndex": 1,
+          "tokenId": "6",
+          "amount": "3",
+          "tokenAddress": "0xcEF0747Ef40423a9C468591FDCf093574432BEac"
+        }
+      ]
+    },
+    "requirementNfts": {
+      "taskId": 1,
+      "requirementNfts": [
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": ["1130", "1150", "1160", "1180", "1190", "1370"],
+          "amount": "3",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [1200, 1210, 1220, 1230, 1240, 1410],
+          "amount": "2",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            10000, 10010, 10020, 10030, 10040, 10050, 10060, 10070, 10080
+          ],
+          "amount": "10",
+          "burnRate": "0"
+        }
+      ]
+    },
+    "requirementTokens": {
+      "taskId": 1,
+      "requirementToken": {
+        "tokenAddress": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+        "amount": "150"
+      }
+    },
+    "requirementTasks": {}
+  },
+  {
+    "task": {
+      "taskGroupId": 1,
+      "taskId": 2,
+      "lockTime": [0, 0, 10],
+      "numberOfRepetitions": "2",
+      "successRate": 100
+    },
+    "rewards": {
+      "taskId": 2,
+      "rewards": [
+        {
+          "claimRewardContractIndex": 1,
+          "tokenId": "6",
+          "amount": "5",
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA"
+        },
+        {
+          "claimRewardContractIndex": 1,
+          "tokenId": "7",
+          "amount": "5",
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA"
+        },
+        {
+          "claimRewardContractIndex": 1,
+          "tokenId": "16",
+          "amount": "1",
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA"
+        }
+      ]
+    },
+    "requirementNfts": {
+      "taskId": 2,
+      "requirementNfts": [
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": ["1130", "1150", "1160", "1180", "1190", "1370"],
+          "amount": "10",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [1200, 1210, 1220, 1230, 1240, 1410],
+          "amount": "5",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+          ],
+          "amount": "5",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            10000, 10010, 10020, 10030, 10040, 10050, 10060, 10070, 10080
+          ],
+          "amount": "15",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            10001, 10011, 10021, 10031, 10041, 10051, 10061, 10071, 10081
+          ],
+          "amount": "5",
+          "burnRate": "0"
+        }
+      ]
+    },
+    "requirementTokens": {
+      "taskId": 2,
+      "requirementToken": {
+        "tokenAddress": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+        "amount": "250"
+      }
+    },
+    "requirementTasks": {}
+  },
+  {
+    "task": {
+      "taskGroupId": 1,
+      "taskId": 3,
+      "lockTime": [0, 0, 10],
+      "numberOfRepetitions": "1",
+      "successRate": 100
+    },
+    "rewards": {
+      "taskId": 3,
+      "rewards": [
+        {
+          "claimRewardContractIndex": 1,
+          "tokenId": "7",
+          "amount": "5",
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA"
+        },
+        {
+          "claimRewardContractIndex": 1,
+          "tokenId": "8",
+          "amount": "5",
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA"
+        },
+        {
+          "claimRewardContractIndex": 1,
+          "tokenId": "17",
+          "amount": "1",
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA"
+        }
+      ]
+    },
+    "requirementNfts": {
+      "taskId": 3,
+      "requirementNfts": [
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": ["1130", "1150", "1160", "1180", "1190", "1370"],
+          "amount": "10",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [1200, 1210, 1220, 1230, 1240, 1410],
+          "amount": "5",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            1250, 1260, 1270, 1280, 1290, 1380, 1390, 1400, 1420, 1430, 1440
+          ],
+          "amount": "5",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            10000, 10010, 10020, 10030, 10040, 10050, 10060, 10070, 10080
+          ],
+          "amount": "15",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            10001, 10011, 10021, 10031, 10041, 10051, 10061, 10071, 10081
+          ],
+          "amount": "5",
+          "burnRate": "0"
+        },
+        {
+          "tokenAddress": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+          "tokenIds": [
+            10002, 10012, 10022, 10032, 10042, 10052, 10062, 10072, 10082
+          ],
+          "amount": "3",
+          "burnRate": "0"
+        }
+      ]
+    },
+    "requirementTokens": {
+      "taskId": 3,
+      "requirementToken": {
+        "tokenAddress": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+        "amount": "500"
+      }
+    },
+    "requirementTasks": {}
+  }
+]

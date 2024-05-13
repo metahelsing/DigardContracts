@@ -1,0 +1,1845 @@
+[
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 1,
+    "tokenId": 10000,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10000,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 2,
+    "tokenId": 10001,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10000,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 3,
+    "tokenId": 10002,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10001,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 4,
+    "tokenId": 10003,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10002,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 5,
+    "tokenId": 10004,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10003,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 6,
+    "tokenId": 10005,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10004,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 7,
+    "tokenId": 10006,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10005,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 8,
+    "tokenId": 10007,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10006,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 9,
+    "tokenId": 10008,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10007,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 1,
+    "workshopItemId": 10,
+    "tokenId": 10009,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10008,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 11,
+    "tokenId": 10010,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10010,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 12,
+    "tokenId": 10011,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10010,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 13,
+    "tokenId": 10012,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10011,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 14,
+    "tokenId": 10013,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10012,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 15,
+    "tokenId": 10014,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10013,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 16,
+    "tokenId": 10015,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10014,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 17,
+    "tokenId": 10016,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10015,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 18,
+    "tokenId": 10017,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10016,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 19,
+    "tokenId": 10018,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10017,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 2,
+    "workshopItemId": 20,
+    "tokenId": 10019,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10018,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 21,
+    "tokenId": 10020,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10020,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 22,
+    "tokenId": 10021,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10020,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 23,
+    "tokenId": 10022,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10021,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 24,
+    "tokenId": 10023,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10022,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 25,
+    "tokenId": 10024,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10023,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 26,
+    "tokenId": 10025,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10024,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 27,
+    "tokenId": 10026,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10025,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 28,
+    "tokenId": 10027,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10026,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 29,
+    "tokenId": 10028,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10027,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 3,
+    "workshopItemId": 30,
+    "tokenId": 10029,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10028,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 31,
+    "tokenId": 10030,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10030,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 32,
+    "tokenId": 10031,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10030,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 33,
+    "tokenId": 10032,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10031,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 34,
+    "tokenId": 10033,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10032,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 35,
+    "tokenId": 10034,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10033,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 36,
+    "tokenId": 10035,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10034,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 37,
+    "tokenId": 10036,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10035,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 38,
+    "tokenId": 10037,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10036,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 39,
+    "tokenId": 10038,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10037,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 4,
+    "workshopItemId": 40,
+    "tokenId": 10039,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10038,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 41,
+    "tokenId": 10040,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10040,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 42,
+    "tokenId": 10041,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10040,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 43,
+    "tokenId": 10042,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10041,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 44,
+    "tokenId": 10043,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10042,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 45,
+    "tokenId": 10044,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10043,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 46,
+    "tokenId": 10045,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10044,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 47,
+    "tokenId": 10046,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10045,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 48,
+    "tokenId": 10047,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10046,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 49,
+    "tokenId": 10048,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10047,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 5,
+    "workshopItemId": 50,
+    "tokenId": 10049,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10048,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 51,
+    "tokenId": 10050,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10050,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 52,
+    "tokenId": 10051,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10050,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 53,
+    "tokenId": 10052,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10051,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 54,
+    "tokenId": 10053,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10052,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 55,
+    "tokenId": 10054,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10053,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 56,
+    "tokenId": 10055,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10054,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 57,
+    "tokenId": 10056,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10055,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 58,
+    "tokenId": 10057,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10056,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 59,
+    "tokenId": 10058,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10057,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 6,
+    "workshopItemId": 60,
+    "tokenId": 10059,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10058,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 61,
+    "tokenId": 10060,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10060,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 62,
+    "tokenId": 10061,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10060,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 63,
+    "tokenId": 10062,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10061,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 64,
+    "tokenId": 10063,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10062,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 65,
+    "tokenId": 10064,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10063,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 66,
+    "tokenId": 10065,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10064,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 67,
+    "tokenId": 10066,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10065,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 68,
+    "tokenId": 10067,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10066,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 69,
+    "tokenId": 10068,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10067,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 7,
+    "workshopItemId": 70,
+    "tokenId": 10069,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10068,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 71,
+    "tokenId": 10070,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10070,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 72,
+    "tokenId": 10071,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10070,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 73,
+    "tokenId": 10072,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10071,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 74,
+    "tokenId": 10073,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10072,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 75,
+    "tokenId": 10074,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10073,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 76,
+    "tokenId": 10075,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10074,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 77,
+    "tokenId": 10076,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10075,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 78,
+    "tokenId": 10077,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10076,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 79,
+    "tokenId": 10078,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10077,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 8,
+    "workshopItemId": 80,
+    "tokenId": 10079,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10078,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 81,
+    "tokenId": 10080,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10080,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 82,
+    "tokenId": 10081,
+    "level": 2,
+    "upgradePrice": 20,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10080,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 83,
+    "tokenId": 10082,
+    "level": 3,
+    "upgradePrice": 30,
+    "upgradeChanceRatio": 90,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10081,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 84,
+    "tokenId": 10083,
+    "level": 4,
+    "upgradePrice": 50,
+    "upgradeChanceRatio": 80,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10082,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 85,
+    "tokenId": 10084,
+    "level": 5,
+    "upgradePrice": 75,
+    "upgradeChanceRatio": 75,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10083,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 86,
+    "tokenId": 10085,
+    "level": 6,
+    "upgradePrice": 100,
+    "upgradeChanceRatio": 70,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10084,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 87,
+    "tokenId": 10086,
+    "level": 7,
+    "upgradePrice": 200,
+    "upgradeChanceRatio": 60,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10085,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 88,
+    "tokenId": 10087,
+    "level": 8,
+    "upgradePrice": 300,
+    "upgradeChanceRatio": 50,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10086,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 89,
+    "tokenId": 10088,
+    "level": 9,
+    "upgradePrice": 400,
+    "upgradeChanceRatio": 40,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10087,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 9,
+    "workshopItemId": 90,
+    "tokenId": 10089,
+    "level": 10,
+    "upgradePrice": 500,
+    "upgradeChanceRatio": 20,
+    "totalRequiredItem": 2,
+    "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 10088,
+        "nftContract": "0x8e7480cf6C08f12a1d25Ab141bd851b83eB175DA",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 10,
+    "workshopItemId": 91,
+    "tokenId": 1,
+    "level": 1,
+    "upgradePrice": 0,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 1,
+        "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 10,
+    "workshopItemId": 92,
+    "tokenId": 2,
+    "level": 2,
+    "upgradePrice": 1000,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 1,
+        "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 10,
+    "workshopItemId": 93,
+    "tokenId": 3,
+    "level": 3,
+    "upgradePrice": 2500,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 2,
+        "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 10,
+    "workshopItemId": 94,
+    "tokenId": 4,
+    "level": 4,
+    "upgradePrice": 6000,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 3,
+        "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 10,
+    "workshopItemId": 95,
+    "tokenId": 5,
+    "level": 5,
+    "upgradePrice": 17000,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 4,
+        "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 10,
+    "workshopItemId": 96,
+    "tokenId": 6,
+    "level": 6,
+    "upgradePrice": 35000,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 5,
+        "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  },
+  {
+    "workshopGroupId": 10,
+    "workshopItemId": 97,
+    "tokenId": 7,
+    "level": 7,
+    "upgradePrice": 85000,
+    "upgradeChanceRatio": 100,
+    "totalRequiredItem": 2,
+    "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+    "spendingContract": "0xd2A61d8E01FAF8b9b711F5F6F7854Ef3Fae0Ac70",
+    "requiredItems": [
+      {
+        "tokenId": 6,
+        "nftContract": "0xe420A230c035E58dA8e2f1C8eE3222c22F942DE0",
+        "amount": 2,
+        "failedBurningAmount": 1
+      }
+    ]
+  }
+]

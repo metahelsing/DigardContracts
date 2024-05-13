@@ -1,0 +1,81 @@
+[
+  {
+    "itemLevel": 1,
+    "upgradeFee": "0",
+    "uri": [
+      "common/blue.json",
+      "common/green.json",
+      "common/orange.json",
+      "common/purple.json",
+      "common/red.json",
+      "common/turquoise.json"
+    ]
+  },
+  {
+    "itemLevel": 2,
+    "upgradeFee": "6000000000000000",
+    "uri": [
+      "uncommon/blue.json",
+      "uncommon/green.json",
+      "uncommon/orange.json",
+      "uncommon/purple.json",
+      "uncommon/red.json",
+      "uncommon/turquoise.json"
+    ]
+  },
+  {
+    "itemLevel": 3,
+    "upgradeFee": "15000000000000000",
+    "uri": [
+      "rare/blue.json",
+      "rare/green.json",
+      "rare/orange.json",
+      "rare/purple.json",
+      "rare/red.json",
+      "rare/turquoise.json"
+    ]
+  },
+  {
+    "itemLevel": 4,
+    "upgradeFee": "45000000000000000",
+    "uri": [
+      "epic/blue.json",
+      "epic/green.json",
+      "epic/orange.json",
+      "epic/purple.json",
+      "epic/red.json",
+      "epic/turquoise.json"
+    ]
+  },
+  {
+    "itemLevel": 5,
+    "upgradeFee": "100000000000000000",
+    "uri": [
+      "legendary/blue.json",
+      "legendary/green.json",
+      "legendary/orange.json",
+      "legendary/purple.json",
+      "legendary/red.json",
+      "legendary/turquoise.json"
+    ]
+  },
+  {
+    "itemLevel": 6,
+    "upgradeFee": "250000000000000000",
+    "uri": [
+      "ancient/blue.json",
+      "ancient/green.json",
+      "ancient/orange.json",
+      "ancient/purple.json",
+      "ancient/red.json",
+      "ancient/turquoise.json"
+    ]
+  },
+  {
+    "itemLevel": 7,
+    "upgradeFee": "600000000000000000",
+    "uri": [
+      "unique/one.json"
+    ]
+  }
+]

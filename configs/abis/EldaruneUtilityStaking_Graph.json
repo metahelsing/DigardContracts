@@ -1,0 +1,187 @@
+[
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "OwnershipTransferred",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousOwner",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "newOwner",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StakingProgramEvent",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingProgramId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "stakingLevel",
+                "indexed": true
+            },
+            {
+                "type": "uint256[3]",
+                "name": "stakingTimeDuration",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingBlockWaitSize",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "rewardId",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "rewardName",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StakingSubscribeEvent",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingSubscribeId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingProgramId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingStartDate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingEndDate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingStartBlock",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "stakerAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StakingUnSubscribeEvent",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingSubscribeId",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    }
+]

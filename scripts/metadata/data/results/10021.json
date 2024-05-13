@@ -1,0 +1,47 @@
+{
+    "name": "Basic Boots",
+    "description": "Basic Boots",
+    "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/10021.png",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Item"
+        },
+        {
+            "trait_type": "Level",
+            "value": "2"
+        },
+        {
+            "text": "Level",
+            "value": "1"
+        },
+        {
+            "text": "Armor",
+            "value": "25"
+        },
+        {
+            "text": "Hit Points",
+            "value": "25"
+        },
+        {
+            "text": "Damage",
+            "value": "5"
+        },
+        {
+            "text": "Level",
+            "value": "2"
+        },
+        {
+            "text": "Armor",
+            "value": "50"
+        },
+        {
+            "text": "Hit Points",
+            "value": "50"
+        },
+        {
+            "text": "Damage",
+            "value": "10"
+        }
+    ]
+}

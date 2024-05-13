@@ -1,0 +1,15 @@
+[
+  {
+    "storeItemId": "1",
+    "tokenId": "1",
+    "amount": "1",
+    "price": 0,
+    "nftContract": "0x6B4d66f190A189bDafA874edED9173130Fa7798d",
+    "active": true,
+    "maxPerSoldAmount": "1",
+    "maxSoldAmount": "3",
+    "startDate": "0",
+    "endDate": "0",
+    "whitelistEnabled": false
+  }
+]

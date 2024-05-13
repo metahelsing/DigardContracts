@@ -1,0 +1,491 @@
+[
+    {
+        "type": "constructor",
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RemoveWhitelist",
+        "inputs": [
+            {
+                "type": "address[]",
+                "name": "whiteListAddresses",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "tokenAddress",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveWhitelist",
+        "inputs": [
+            {
+                "type": "address[]",
+                "name": "whiteListAddresses",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "tokenAddress",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "ADMIN_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "DEFAULT_ADMIN_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "UPGRADER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "WHITELIST_ADDED_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "_whiteListAddresses",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address"
+            },
+            {
+                "type": "string"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getRoleAdmin",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getWhitelist",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "whitelistAddress"
+            },
+            {
+                "type": "address",
+                "name": "tokenAddress"
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "grantAdminRole",
+        "constant": false,
+        "payable": false,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "grantRole",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "hasRole",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "initialize",
+        "constant": false,
+        "payable": false,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "proxiableUUID",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "removeWhitelist",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "tuple",
+                "name": "_whiteListInformation",
+                "components": [
+                    {
+                        "type": "address[]",
+                        "name": "whiteListAddresses"
+                    },
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "renounceRole",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "revokeRole",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveWhitelist",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "tuple",
+                "name": "_whiteListInformation",
+                "components": [
+                    {
+                        "type": "address[]",
+                        "name": "whiteListAddresses"
+                    },
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "supportsInterface",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "bytes4",
+                "name": "interfaceId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "upgradeTo",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeToAndCall",
+        "constant": false,
+        "stateMutability": "payable",
+        "payable": true,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            },
+            {
+                "type": "bytes",
+                "name": "data"
+            }
+        ],
+        "outputs": []
+    }
+]

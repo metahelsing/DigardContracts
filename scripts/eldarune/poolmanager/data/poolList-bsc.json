@@ -1,0 +1,8 @@
+[
+    {"poolAddress": "0xD3f1b17984eF745dB21E5dbaD450d406Df9E7c27", "enabled": true},
+    {"poolAddress": "0x76bEDfF39ADA4ab026cbc4EDc0FfB88045329486", "enabled": true},
+    {"poolAddress": "0x266BC9C3d7d97185f2F14E4376F1D6713860c2Ae", "enabled": true},
+    {"poolAddress": "0xDBB3FC3162CF396264d5E3A2188bf73CFfcF3532", "enabled": true},
+    {"poolAddress": "0xEa2f3951AEa75e201bd81F76FB50321b1f07150E", "enabled": true},
+    {"poolAddress": "0x510B62E802DbcBE9F8bbd5Db617d2f4926D2eF51", "enabled": true}
+]

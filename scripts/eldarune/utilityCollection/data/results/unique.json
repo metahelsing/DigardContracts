@@ -1,0 +1,47 @@
+[
+    {
+        "amount": 1,
+        "owner": "0x2b0666f128374ce8f30d7560bdaf2bc14e079da8",
+        "rarity": "7"
+    },
+    {
+        "amount": 2,
+        "owner": "0xb0f9e5986b58eeaecf8baf4d2676c1a5b0db7a04",
+        "rarity": "7"
+    },
+    {
+        "amount": 1,
+        "owner": "0x77efef2bc4e26e661790180455793a9d71710baa",
+        "rarity": "7"
+    },
+    {
+        "amount": 1,
+        "owner": "0x7ac5ef269186cecef530c2af7693d06231b3e0ef",
+        "rarity": "7"
+    },
+    {
+        "amount": 1,
+        "owner": "0x8f5f556c2664ca23d40d94a9a393f9bf78510ae1",
+        "rarity": "7"
+    },
+    {
+        "amount": 1,
+        "owner": "0x33b0d5f06ae3f46ee345eb0f8a16cdb25e98b92d",
+        "rarity": "7"
+    },
+    {
+        "amount": 1,
+        "owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+        "rarity": "7"
+    },
+    {
+        "amount": 2,
+        "owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+        "rarity": "7"
+    },
+    {
+        "amount": 1,
+        "owner": "0x7eafcc697e7bc14313c22325ecc17b21d5232bf9",
+        "rarity": "7"
+    }
+]

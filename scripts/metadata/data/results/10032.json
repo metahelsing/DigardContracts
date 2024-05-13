@@ -1,0 +1,63 @@
+{
+    "name": "Basic Chests",
+    "description": "Basic Chests",
+    "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/10032.png",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Item"
+        },
+        {
+            "trait_type": "Level",
+            "value": "3"
+        },
+        {
+            "text": "Level",
+            "value": "1"
+        },
+        {
+            "text": "Armor",
+            "value": "25"
+        },
+        {
+            "text": "Hit Points",
+            "value": "5"
+        },
+        {
+            "text": "Damage",
+            "value": "5"
+        },
+        {
+            "text": "Level",
+            "value": "2"
+        },
+        {
+            "text": "Armor",
+            "value": "5"
+        },
+        {
+            "text": "Hit Points",
+            "value": "10"
+        },
+        {
+            "text": "Damage",
+            "value": "10"
+        },
+        {
+            "text": "Level",
+            "value": "3"
+        },
+        {
+            "text": "Armor",
+            "value": "75"
+        },
+        {
+            "text": "Hit Points",
+            "value": "15"
+        },
+        {
+            "text": "Damage",
+            "value": "15"
+        }
+    ]
+}

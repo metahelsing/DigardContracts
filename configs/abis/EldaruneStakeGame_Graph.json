@@ -1,0 +1,324 @@
+[
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "EndMission",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "walletAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "subscribeId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveMission",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": false
+            },
+            {
+                "type": "uint256[3]",
+                "name": "lockTime",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "numberOfRepetitions",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "paymentTokenAmount",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "paymentTokenAddress",
+                "indexed": false
+            },
+            {
+                "type": "string",
+                "name": "missionUrl",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveRequirement",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "requirementNFTs",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256[]",
+                        "name": "tokenIds"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "burnRate"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveReward",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "rewards",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "claimRewardContractIndex"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StartMission",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "walletAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "subscribeId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "endTime",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "requirementNfts",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "burnRate"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    }
+]

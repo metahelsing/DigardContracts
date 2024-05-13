@@ -1,0 +1,158 @@
+[
+  {
+    "packageCollectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa",
+    "tokenId": "2",
+    "packageItems": [
+      {
+        "tokenId": "1",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "5",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "6",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "7",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "8",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "15",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "18",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      }
+    ]
+  },
+  {
+    "packageCollectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa",
+    "tokenId": "3",
+    "packageItems": [
+      {
+        "tokenId": "1",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "10",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "11",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "12",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "13",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      }
+    ]
+  },
+  {
+    "packageCollectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa",
+    "tokenId": "4",
+    "packageItems": [
+      {
+        "tokenId": "1",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "7",
+        "amount": "5",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "8",
+        "amount": "5",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "17",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      },
+      {
+        "tokenId": "20",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      }
+    ]
+  },
+  {
+    "packageCollectionAddress": "0xB95dA5529D287742E2Efc67A7c8a0088802A4BEC",
+    "tokenId": "8",
+    "packageItems": [
+      {
+        "tokenId": "4",
+        "amount": "1",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0xB95dA5529D287742E2Efc67A7c8a0088802A4BEC"
+      },
+      {
+        "tokenId": "3",
+        "amount": "2",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0xB95dA5529D287742E2Efc67A7c8a0088802A4BEC"
+      },
+      {
+        "tokenId": "2",
+        "amount": "5",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0xB95dA5529D287742E2Efc67A7c8a0088802A4BEC"
+      },
+      {
+        "tokenId": "1",
+        "amount": "10",
+        "maxOwnedAmount": "0",
+        "collectionAddress": "0xB95dA5529D287742E2Efc67A7c8a0088802A4BEC"
+      },
+      {
+        "tokenId": "14",
+        "amount": "1",
+        "maxOwnedAmount": "1",
+        "collectionAddress": "0x7C0A3185477Eb665a56CF0f0998c7371652FfCaa"
+      }
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+{
+    "name": "Basic Sword",
+    "description": "Basic Sword",
+    "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/10080.png",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Item"
+        },
+        {
+            "trait_type": "Level",
+            "value": "1"
+        },
+        {
+            "text": "Level",
+            "value": "1"
+        },
+        {
+            "text": "Armor",
+            "value": "25"
+        },
+        {
+            "text": "Hit Points",
+            "value": "25"
+        },
+        {
+            "text": "Damage",
+            "value": "5"
+        }
+    ]
+}

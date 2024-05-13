@@ -1,0 +1,155 @@
+[
+    {
+        "itemIds": [18, 65, 19, 50, 66, 67, 68, 20, 69, 70],
+        "tokenId": 10000,
+        "name": "Basic Amulet",
+        "description": "Basic Amulet",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [21, 22, 23, 51, 71, 72, 73, 74, 75, 76],
+        "tokenId": 10010,
+        "name": "Basic Belt",
+        "description": "Basic Belt",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [24, 77, 25, 52, 78, 79, 80, 81, 82, 83],
+        "tokenId": 10020,
+        "name": "Basic Boots",
+        "description": "Basic Boots",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [26, 84, 27, 53, 85, 86, 87, 88, 89, 90],
+        "tokenId": 10030,
+        "name": "Basic Chests",
+        "description": "Basic Chests",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [91, 92, 49, 93, 94, 95, 96, 97, 98, 99],
+        "tokenId": 10040,
+        "name": "Basic Cloak",
+        "description": "Basic Cloak",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [100, 101, 28, 54, 29, 102, 103, 104, 105, 106],
+        "tokenId": 10050,
+        "name": "Basic Helm",
+        "description": "Basic Helm",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [107, 108, 30, 109, 110, 111, 112, 113, 114, 115],
+        "tokenId": 10060,
+        "name": "Basic Ring",
+        "description": "Basic Ring",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [116, 36, 37, 117, 118, 119, 120, 121, 122, 123],
+        "tokenId": 10070,
+        "name": "Basic Shield",
+        "description": "Basic Shield",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    },
+    {
+        "itemIds": [48, 31, 32, 38, 33, 43, 62, 63, 34, 35],
+        "tokenId": 10080,
+        "name": "Basic Sword",
+        "description": "Basic Sword",
+        "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/",
+        "attributes": [
+          {
+            "trait_type": "Type",
+            "value": "Item"
+          },
+          {
+            "trait_type": "Level",
+            "value": "1"
+          }
+        ]
+    }
+]

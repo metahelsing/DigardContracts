@@ -1,0 +1,865 @@
+[
+    {
+        "type": "constructor",
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BoostChanceItemSave",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopGroupId",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "boostChangeItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "boostChance"
+                    },
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "UpgradeResult",
+        "inputs": [
+            {
+                "type": "bool",
+                "name": "isUpgrade",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "randomNumber",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "WorkshopGroupSave",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopGroupId",
+                "indexed": false
+            },
+            {
+                "type": "bool",
+                "name": "disableChanceRatio",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "WorkshopItemBoostUpgrade",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopGroupId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "workshopItemId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "spendingAmount",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "boostTokenId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "boostedTotalChance",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "owner",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "isUpgrade",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "WorkshopItemSave",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopGroupId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "workshopItemId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "level",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "upgradePrice",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "upgradeChanceRatio",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "totalRequiredItem",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "nftContract",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "spendingContract",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "requiredItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "address",
+                        "name": "nftContract"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "failedBurningAmount"
+                    }
+                ]
+            },
+            {
+                "type": "string",
+                "name": "tokenUri",
+                "indexed": false
+            },
+            {
+                "type": "string",
+                "name": "collectionName",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "WorkshopItemUpgrade",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopGroupId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "workshopItemId",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "owner",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "isUpgrade",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "spendingAmount",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "DEFAULT_ADMIN_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "PAUSER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "UPGRADER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "_workshopOwnerPool",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getRoleAdmin",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getWorkshopItem",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopItemId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "grantRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "hasRole",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "initialize",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "__workshopOwnerPool"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "pause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "paused",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "proxiableUUID",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "renounceRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "revokeRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveBoostChanceItem",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256[]",
+                "name": "workshopGroupIds"
+            },
+            {
+                "type": "tuple[]",
+                "name": "boostChanceItems",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "boostChance"
+                    },
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveWorkshopGroupItem",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "tuple[]",
+                "name": "__workshopGroups",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "workshopGroupId"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "disableChanceRatio"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveWorkshopItem",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "tuple[]",
+                "name": "__workshopItems",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "workshopGroupId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "workshopItemId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "level"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "upgradePrice"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "upgradeChanceRatio"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "totalRequiredItem"
+                    },
+                    {
+                        "type": "address",
+                        "name": "nftContract"
+                    },
+                    {
+                        "type": "address",
+                        "name": "spendingContract"
+                    },
+                    {
+                        "type": "tuple[]",
+                        "name": "requiredItems",
+                        "components": [
+                            {
+                                "type": "uint256",
+                                "name": "tokenId"
+                            },
+                            {
+                                "type": "address",
+                                "name": "nftContract"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "amount"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "failedBurningAmount"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "setWorkshopPoolOwner",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "__workshopOwnerPool"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "supportsInterface",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes4",
+                "name": "interfaceId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "unpause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeBatchItem",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopItemId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeBoostBatchItem",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopItemId"
+            },
+            {
+                "type": "uint256",
+                "name": "boostTokenId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeBoostItem",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopItemId"
+            },
+            {
+                "type": "uint256",
+                "name": "boostTokenId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeItem",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "workshopItemId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeTo",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeToAndCall",
+        "constant": false,
+        "stateMutability": "payable",
+        "payable": true,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            },
+            {
+                "type": "bytes",
+                "name": "data"
+            }
+        ],
+        "outputs": []
+    }
+]

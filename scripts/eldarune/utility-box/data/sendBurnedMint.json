@@ -1,0 +1,3997 @@
+[
+  {
+    "TokenId": "429",
+    "Owner": "0x0a1489c701dd4bda36f12c558c737218319a8ae4",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "358",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "876",
+    "Owner": "0x39ef374cd2512a7512639a99a7aae23546172276",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "3424",
+    "Owner": "0x423a2c4b143a82799c6c8b0738c11999c625cd2c",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1218",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "212",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "973",
+    "Owner": "0x9e251b54de337cf87680564482c8898066c25f71",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "2628",
+    "Owner": "0xdc5e41209dd966a118a1a2b6a0d147bc59387be3",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "1153",
+    "Owner": "0x6c56ec6b28f2d1941d6c6b65988ee51dcb6acccb",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4926",
+    "Owner": "0xfbce1f9a93b65168a702d839bd4a17195738b545",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1334",
+    "Owner": "0x1708c67f9d3095c92ddcf92e920f11a0ab64ed53",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "492",
+    "Owner": "0x25284b4704eb3424e6851b392842e21856c82b23",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "1669",
+    "Owner": "0x4293991a9eb741572b617ad9ec180f4cd5326608",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "3100",
+    "Owner": "0x4293991a9eb741572b617ad9ec180f4cd5326608",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "2283",
+    "Owner": "0x2833946c8ca6033ab960ca8dc0d010b6d3dcc820",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "247",
+    "Owner": "0x3bbdedd7f9b438fc5e8e06a5a8acad3f83ccf86e",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "453",
+    "Owner": "0x3bbdedd7f9b438fc5e8e06a5a8acad3f83ccf86e",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "235",
+    "Owner": "0x3bbdedd7f9b438fc5e8e06a5a8acad3f83ccf86e",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "249",
+    "Owner": "0x3bbdedd7f9b438fc5e8e06a5a8acad3f83ccf86e",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3482",
+    "Owner": "0x3bbdedd7f9b438fc5e8e06a5a8acad3f83ccf86e",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3716",
+    "Owner": "0x87a4270917a1f77abb25d3ee541011a21fd52bda",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "237",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "537",
+    "Owner": "0x097e278a74098623fb96674dee9dd136f75f6914",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "857",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1173",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1918",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3370",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3644",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4741",
+    "Owner": "0x7ae1cd518ecf4546fc93796dbb26f0ee0a1b35ba",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "3905",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4066",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4406",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4299",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "882",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1187",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "3484",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4860",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3904",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2684",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4570",
+    "Owner": "0x7d3d2b9897ec739ec22dbb4cd3739d16d566d1d8",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "784",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "521",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1230",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1380",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2136",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2763",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "4359",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "4485",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "1170",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "686",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "754",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "933",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "2838",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "668",
+    "Owner": "0x7ae1cd518ecf4546fc93796dbb26f0ee0a1b35ba",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "4687",
+    "Owner": "0x279854a85491e07e34282c010ae9fe856596dce1",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "1648",
+    "Owner": "0x908935050c81544c1afe247cdd5a51458e91407a",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3243",
+    "Owner": "0x53deb8f8e47ddbe2e12b5590cf769dc53f543aa7",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "670",
+    "Owner": "0xf753d3d76927925999868e8f5d5225ae8d93d3d1",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1776",
+    "Owner": "0xf753d3d76927925999868e8f5d5225ae8d93d3d1",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "4412",
+    "Owner": "0xf753d3d76927925999868e8f5d5225ae8d93d3d1",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "1062",
+    "Owner": "0x98bf032ed2d4c1478de01744d429c0e464262686",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3425",
+    "Owner": "0xfeb8deaac724f98ccb51b20c0a2384e7082be8d9",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3788",
+    "Owner": "0xd1e95ec2298cb8357887c965e7b68e99cfff9538",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2725",
+    "Owner": "0xaeb2b0459f3302028904c6b95c4f01fbde12ee56",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "3653",
+    "Owner": "0xaeb2b0459f3302028904c6b95c4f01fbde12ee56",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "290",
+    "Owner": "0x807a745c6fac94df102e5d7dadaa43288f5fcb03",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1942",
+    "Owner": "0x4b5dfbc0bb2099b7ed12b67bfa29eb215cdf1598",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "361",
+    "Owner": "0x8f5f556c2664ca23d40d94a9a393f9bf78510ae1",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1396",
+    "Owner": "0x8f5f556c2664ca23d40d94a9a393f9bf78510ae1",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2668",
+    "Owner": "0x68f91384e08c800bbf81d650deab48cd90f4e696",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3705",
+    "Owner": "0xe9109ff545ce8cbeba9e0dacd5d0dfa265f00ad9",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "262",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "3318",
+    "Owner": "0xd26f985f3c862a8b3ca57f3074e636a2d6629bff",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1950",
+    "Owner": "0xadf7782d33f45d3fc2dff38fcde0ee0140a476c9",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1709",
+    "Owner": "0xac647d25cf8494a239e8ff0edd10f0baaa22bf83",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2143",
+    "Owner": "0xcfa1aba8006906679950d2fa133342e91c6efc59",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3551",
+    "Owner": "0x30decae8308b512a0b600eb26300a0a7df1843ff",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3713",
+    "Owner": "0x025df149d18461d55c0313461f7529a800a926bc",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4898",
+    "Owner": "0x2d86f8a8d1806c255f060f1d5774eb13adc8752c",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "210",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1951",
+    "Owner": "0xae2e0870204e340a95349b7f1a4d192c576cc058",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1564",
+    "Owner": "0x5debc1be15821664057d80d8e27f2c1f012ee0a0",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1949",
+    "Owner": "0xae2e0870204e340a95349b7f1a4d192c576cc058",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2742",
+    "Owner": "0xaf0395771050dc50351731d26fdee56b9c9a87af",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "887",
+    "Owner": "0x04ece660164a2ef8210dfb1a67389e33d9331007",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1482",
+    "Owner": "0x973ddaeb339f5dcabb29468c07b41153be22e6e2",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "2281",
+    "Owner": "0xc0093c0b5a7a37623a17f12e2cd319236e57965e",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2741",
+    "Owner": "0xc0093c0b5a7a37623a17f12e2cd319236e57965e",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3240",
+    "Owner": "0xf233c4babba13a25595ec88c9308c9ed432460b9",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2537",
+    "Owner": "0xe2d70f3254fc0f2f72e933191737d15c4907d6a2",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4930",
+    "Owner": "0xabbc5f409e17950362c50f7fdc5132b8448753d7",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2544",
+    "Owner": "0x4b0d6c9af4763d86c5cab4f99c51c74dcdf9204f",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2935",
+    "Owner": "0xb11034f092f9f523ee5c5d218f37287dc86b9950",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "624",
+    "Owner": "0x80502fc24436dedda6dfe3bb6669751f5f059cc2",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "4813",
+    "Owner": "0x80502fc24436dedda6dfe3bb6669751f5f059cc2",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1823",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "316",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2024",
+    "Owner": "0x77efef2bc4e26e661790180455793a9d71710baa",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "270",
+    "Owner": "0x1172f0e1f6fa541c74d5355cb0f40f2c871a6306",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "1319",
+    "Owner": "0x77efef2bc4e26e661790180455793a9d71710baa",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "2183",
+    "Owner": "0x77efef2bc4e26e661790180455793a9d71710baa",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "2308",
+    "Owner": "0xa027e811972e7a75b5cf999c5bc1ca84ac273b1c",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1707",
+    "Owner": "0xbf85ae49a10cad9f28ec88f960181c20c1781a08",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1726",
+    "Owner": "0x96f937286a008bd3d140f41dbaedf4ad543b9a9c",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "3749",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3917",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3921",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3926",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "972",
+    "Owner": "0x683804afccdf61450072105e0e876c48569361fa",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4575",
+    "Owner": "0x683804afccdf61450072105e0e876c48569361fa",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3879",
+    "Owner": "0xa418f7c503f2f1b13d156c4e9bbc71882ed30ef6",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "610",
+    "Owner": "0xbd5a8323e83c50ced1829d39fafaf8ab63d9b29a",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2112",
+    "Owner": "0xfec788768082b7ca77f70aef3622ea900bb6a3cb",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "969",
+    "Owner": "0x9bdec35ff83ef4ce2b5be5af168df6883eaaeadc",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "4858",
+    "Owner": "0x80502fc24436dedda6dfe3bb6669751f5f059cc2",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1726",
+    "Owner": "0x96f937286a008bd3d140f41dbaedf4ad543b9a9c",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "1938",
+    "Owner": "0x96f937286a008bd3d140f41dbaedf4ad543b9a9c",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2607",
+    "Owner": "0xba189a4f264f5a434b5dcd49df5ab150dd0e54ae",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2612",
+    "Owner": "0xba189a4f264f5a434b5dcd49df5ab150dd0e54ae",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "4444",
+    "Owner": "0x6fa0d5efff3e04e32da10ff5c743beb46a31fe98",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1651",
+    "Owner": "0x43beaaf55b402a7b59b8d2696ec040fd09f6c001",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1142",
+    "Owner": "0x60d1551699fc7252b2d92e929c801000bd852e80",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "1166",
+    "Owner": "0x2d1c83f4e74b130295453f0b018b80cbf9030691",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "934",
+    "Owner": "0xfd41c43280f43aa6deffb30a6ddd7ea96dffb15c",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2314",
+    "Owner": "0x0979df2b5442b6252fdc8c958b053938ccb17c93",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1278",
+    "Owner": "0xfd41c43280f43aa6deffb30a6ddd7ea96dffb15c",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "312",
+    "Owner": "0xa8516ed3a25322d6abb467427dab742db8fb1967",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1662",
+    "Owner": "0xfd41c43280f43aa6deffb30a6ddd7ea96dffb15c",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "2380",
+    "Owner": "0x975abc0981860715cecfe76e397bf38e7970e2c1",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2069",
+    "Owner": "0xbfe8fb6e66513784e6e05fe4a8048da4a0dcecb6",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "2538",
+    "Owner": "0x222a2e05f52daa1a045339875a636510d4442f88",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "637",
+    "Owner": "0xa39d5aa185ca373c64b51ff4e333596ecbdceb69",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2503",
+    "Owner": "0x683b921ac4095237c52ea18668a47bf5a687c6fc",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2499",
+    "Owner": "0xfc85a441009d914ed6798e47dd224c3d6f90dfed",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2516",
+    "Owner": "0xd24f8b3cb4bd98d60c5836726c15cc28c8c6d290",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "665",
+    "Owner": "0x1dde2597c00c78946592e29ebe903f0960931918",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2209",
+    "Owner": "0x9b807ef5aecd495ff28275847a08a5c143ecd697",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1364",
+    "Owner": "0x01590d0a05f8a7a398f471ac632846c4db01d801",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "881",
+    "Owner": "0xfd50ab30164fac12b6a7f8c5553d1a0105b10008",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1438",
+    "Owner": "0x6751eecf2cdc1c1a7bfdf21538c4657f93c8e013",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "498",
+    "Owner": "0x2418bc62ba7956c4c2b5f6074a810b1d3965d4e4",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "4912",
+    "Owner": "0x8edd6fb94b4b5f4ce1b11d6e719fb6b5677e85c1",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1882",
+    "Owner": "0xc8d0f27e6cb45f69961ed2291012f57963dad751",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "386",
+    "Owner": "0xb2edf631a6e0a093b8b361f6fe848c8a9d84d333",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4749",
+    "Owner": "0xa58410160c3647de253ad5ae0b2494ee3c286622",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2234",
+    "Owner": "0xa58410160c3647de253ad5ae0b2494ee3c286622",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2208",
+    "Owner": "0xfbc9c2759ce6fd65632ad3d9c4a92dab7c661452",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "4728",
+    "Owner": "0xfbc9c2759ce6fd65632ad3d9c4a92dab7c661452",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "3864",
+    "Owner": "0x7b66671d1dae5e318fa1c69c911fece663bfbd0d",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2000",
+    "Owner": "0xe05bc0f8ce96b65dc319c855958e216b63cfdc72",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "3749",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3921",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3917",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3926",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "401",
+    "Owner": "0xfd8b61cc3f349415f286fce5e4e8a3efe9d20cac",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3821",
+    "Owner": "0x4efb9f7b080ff924c996f24470a13f0c7212508b",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "1612",
+    "Owner": "0x010d69c269ee281b970ccc8f98351e4d676d4c91",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3796",
+    "Owner": "0xd4e41c87b961d1270d970410f2b74ea7b989bf6b",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1937",
+    "Owner": "0xe8c55250163fa29da0142fc16b186a0b5e856d8e",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "1614",
+    "Owner": "0x9a0b4203da1eb74d64fff4f3bb50cd85aee4cf6c",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "4165",
+    "Owner": "0x5027d258daee54d98d65a30395b3bc81910d7a9f",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1633",
+    "Owner": "0xd866d57f8309e9839fd9fb785082eca2a3114994",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4166",
+    "Owner": "0xa8a87ccec8128b78f78274d8ae9ebc6a482ee702",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4959",
+    "Owner": "0x999954d103fe43d56a2e027de6ecbf413aecc63c",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4246",
+    "Owner": "0x844dc157bc9c66a470da858deed334529161c9ae",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3810",
+    "Owner": "0x844dc157bc9c66a470da858deed334529161c9ae",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "208",
+    "Owner": "0x555b14365884d4f24f70e18a971c57585ea2bb6e",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3948",
+    "Owner": "0x31214883c8f9a7bbcea840b9302209e126025741",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1403",
+    "Owner": "0xd2cbb2efc68c8f7819807eae033cd5c84af8e235",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "2002",
+    "Owner": "0xfb768d2e81acd0f88546f5a4ee1efb38f0e77d25",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3023",
+    "Owner": "0x110177710ad083ecfda2e73ae4ca6925dd6e9495",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4081",
+    "Owner": "0x1bb54e499302aee6c4bb4907fbe76c4a03f5149d",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "4135",
+    "Owner": "0x410986e045227f31dc3439a23539e37c712fb25e",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "506",
+    "Owner": "0x959dc1ed28b938e2e523f963da705d254b9fbba4",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "952",
+    "Owner": "0x08b5482cb1f82bd8d5f819a13280772c7b3364f1",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1989",
+    "Owner": "0x6397a1a452137b06b5a8ade0d2bd2017b7d1e09d",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2505",
+    "Owner": "0x07c70120e3141e3145f5ed1b327584dd0c773d4c",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4829",
+    "Owner": "0x07c70120e3141e3145f5ed1b327584dd0c773d4c",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "3767",
+    "Owner": "0x43a3d743789a6ba44ef2c5bdbf4e963db29e9572",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4421",
+    "Owner": "0x8795e36d4845a21524f5d67d750f657e3de9a2ff",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4564",
+    "Owner": "0xdd98bbb3d3c89cd0a60784ea35b13bc45be43308",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "3601",
+    "Owner": "0xdd98bbb3d3c89cd0a60784ea35b13bc45be43308",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "735",
+    "Owner": "0xfe8bac5effb1bb13421ddb6667becff95daeff23",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2931",
+    "Owner": "0xd94f66f9a7394317edc4a6c243a2360b6a7f5f88",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "415",
+    "Owner": "0x2c7c98799580b625388102aefd736b38a0e29fcf",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "2185",
+    "Owner": "0x110146b0eaa5e03579fc5da3b916070ff33eea3c",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "219",
+    "Owner": "0xfe570e1571cef504b11aa1e4734f87d9aa9474af",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "209",
+    "Owner": "0xaa680092ca1ec16f77fb8146886dd2e4cb24ead5",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "3657",
+    "Owner": "0x72f7f76a875580c557b6fa14dd45378bf075ce7b",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4929",
+    "Owner": "0x68db5e9b182af5affefdbe102ded829c018328f6",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2827",
+    "Owner": "0x0560f617d06139b0994bc72df07d6ff27c2737ba",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2196",
+    "Owner": "0x2d4eb91cddea03a2a55ccca343147eca764076e2",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2551",
+    "Owner": "0x290d2386125c640d887241509e000efc18e91fce",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "2492",
+    "Owner": "0x48d06d8c89023dad6f37bc09d0c7b52145c4b3d3",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "3217",
+    "Owner": "0x1fca05734c95d25d15bc30ab225a42f0b13d584a",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "3281",
+    "Owner": "0x1fca05734c95d25d15bc30ab225a42f0b13d584a",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "3637",
+    "Owner": "0x1fca05734c95d25d15bc30ab225a42f0b13d584a",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "3734",
+    "Owner": "0x1fca05734c95d25d15bc30ab225a42f0b13d584a",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "3868",
+    "Owner": "0x1fca05734c95d25d15bc30ab225a42f0b13d584a",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "436",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1501",
+    "Owner": "0xe886e022919ddcd8e9cb3d93e25c5a13892c43d5",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4892",
+    "Owner": "0xe886e022919ddcd8e9cb3d93e25c5a13892c43d5",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "422",
+    "Owner": "0xbe2a5befd8748d9c5e96aa033d570d04df72fbf6",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2833",
+    "Owner": "0x0349b10a1a14384472e0b77c00355f4c434218c1",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3166",
+    "Owner": "0x5a8f24ad7179d83e468fda82402acffb37ed75a5",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "442",
+    "Owner": "0x738b6c539d2b920b73413c725556d4cd24c5f6bb",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2423",
+    "Owner": "0x4fd0607ea07add17c42a2cac700a1d31f21bb45f",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "1873",
+    "Owner": "0x44239db3d29828d05227b02c2e5b23a5c6919e44",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1939",
+    "Owner": "0x5dfac122b501a58b8e0c93cd4c78ea902ff05dcd",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3726",
+    "Owner": "0xb976e146484604e59aae47d7ff5d26373d00796c",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "2777",
+    "Owner": "0x8832b4cf6af464153ec92d2213f42ce36ec17829",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "438",
+    "Owner": "0xa1c86a9f8e9ec63d2be4e46b9a320d22cb2ba9eb",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "472",
+    "Owner": "0x45dd4561873b667375bc13f6cc20c8635869bd30",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1832",
+    "Owner": "0x45dd4561873b667375bc13f6cc20c8635869bd30",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2231",
+    "Owner": "0x45dd4561873b667375bc13f6cc20c8635869bd30",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "3373",
+    "Owner": "0x45dd4561873b667375bc13f6cc20c8635869bd30",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2369",
+    "Owner": "0x00baf139b3a9339edaece9d4fd79591f9940a79e",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2166",
+    "Owner": "0x2d6a6c95ede438b9e5411010cf06dbd0ae7cb9c1",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "2357",
+    "Owner": "0x1b2bedf3fbf13402bc99585b0798d87a5a2cee96",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "2328",
+    "Owner": "0x3cc8815989af22cf985de0f1ad35e31516ce0ba8",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "842",
+    "Owner": "0xa1c86a9f8e9ec63d2be4e46b9a320d22cb2ba9eb",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2020",
+    "Owner": "0x22ae8244ba3ba7166d3cf3219eaea091405c0e00",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "603",
+    "Owner": "0x6d45f8b052b77ff5ba1461552a932c39e82330ba",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "2198",
+    "Owner": "0x6d45f8b052b77ff5ba1461552a932c39e82330ba",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "215",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "1091",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "2190",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "2403",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "3873",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "507",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "2040",
+    "Owner": "0x2ffe5505304c592346a2e455688e6c052d316505",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "1820",
+    "Owner": "0xc77c42cc9d8b0be76f15df7b90d800e60b9ec919",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3253",
+    "Owner": "0xc77c42cc9d8b0be76f15df7b90d800e60b9ec919",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1896",
+    "Owner": "0x89f9ec781abd9e508d1c415858b43e4666392812",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "1541",
+    "Owner": "0x0000001089167600c25258da29d2e2c857ec1689",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "1171",
+    "Owner": "0x2e53e7818f7a62d8b43a5d30cbe6bf807fca7a30",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "4955",
+    "Owner": "0x62dbea25c908f84b78d7ead342bc6c40c92d1f97",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "794",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3998",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3779",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2647",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3853",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4227",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4580",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4590",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4635",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4651",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "397",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "551",
+    "Owner": "0xe9b70a8997b155354c7627dae8af38114f723f34",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "1666",
+    "Owner": "0x6c244bb3c9fee2790db77b03912d30bca06ac38a",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "3187",
+    "Owner": "0x8b4cac1a48d0a20815750975dd7b2f47390dc951",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2486",
+    "Owner": "0x53adbc3a0d0240e8fa6db626606dce73a5cf7152",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "1666",
+    "Owner": "0x6c244bb3c9fee2790db77b03912d30bca06ac38a",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "295",
+    "Owner": "0xbbf5acc75e36878f616e253383213dc0b388c7ca",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "661",
+    "Owner": "0xbbf5acc75e36878f616e253383213dc0b388c7ca",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2296",
+    "Owner": "0x473cd90941e88277d1468d6ca007214d08729b94",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "422",
+    "Owner": "0xbe2a5befd8748d9c5e96aa033d570d04df72fbf6",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1452",
+    "Owner": "0x6ef9e009095ac2fbaabc53183a978141e284c3bd",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2614",
+    "Owner": "0x73152705122298d09690ebab92bf9063901f77e6",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "2859",
+    "Owner": "0x45237267e5550047de6ddf3fe78296a55e0903dc",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "870",
+    "Owner": "0x5b82a36617c22f85ce9a563c831b27305625b780",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4233",
+    "Owner": "0xf09f5fbd1375552e3e356132b9d9ec5395ae83cb",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "436",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4669",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1280",
+    "Owner": "0xca13af63b489c8a780055b56a80cfbca3cc2c3bc",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "1130",
+    "Owner": "0x3594e9dfcafd45da6a6f4c53147324d2f17219f2",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4742",
+    "Owner": "0x14ab0a27bb248ef84979a6db382ef7a2048136c7",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "1188",
+    "Owner": "0x14ab0a27bb248ef84979a6db382ef7a2048136c7",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4585",
+    "Owner": "0x404626ddd56bcaaa7a8c82dde865b188a284b5ba",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "3968",
+    "Owner": "0xd76f8211105947f1f89f05e30238a5c517b9db6d",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "3728",
+    "Owner": "0xd76f8211105947f1f89f05e30238a5c517b9db6d",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1501",
+    "Owner": "0xe886e022919ddcd8e9cb3d93e25c5a13892c43d5",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4892",
+    "Owner": "0xe886e022919ddcd8e9cb3d93e25c5a13892c43d5",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4955",
+    "Owner": "0x62dbea25c908f84b78d7ead342bc6c40c92d1f97",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "1049",
+    "Owner": "0xaf464acad0d4f00ed016668cc6f6b406bc4ff7d6",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4573",
+    "Owner": "0xa645ca4a56f5e8bf247c9c8d595b7a148a5b0c7a",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "3923",
+    "Owner": "0x88d20f4503a0c89e06aa9fa5a7264014297d8cc1",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4455",
+    "Owner": "0xa59c8abc4c98aa8cb88a7c9dbd66958ff4ef5188",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "3677",
+    "Owner": "0xbf12edb31a584ecef5f0e7681fa6d57bd5b195eb",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1641",
+    "Owner": "0x494600d900069b24ac7a1683fdc4c12e7798daba",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1126",
+    "Owner": "0x0fba35a0afe3c43fd2cf5bb228a625793c54a525",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1064",
+    "Owner": "0xfe52554a3c63659eab9b83f8cc86f2ec212103ef",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "2707",
+    "Owner": "0xfe52554a3c63659eab9b83f8cc86f2ec212103ef",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1420",
+    "Owner": "0xb3ab7dd67ea2e4210e9a1949e81b7051f1f364e1",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "348",
+    "Owner": "0xf6472594efb930c9a16893d46ddae187e273ebf4",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1892",
+    "Owner": "0xdd3b797443287753014b128dee509fbd064d9a45",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "2949",
+    "Owner": "0xd04037d921f84d6ebeccd2b482729d6ad70db97f",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1309",
+    "Owner": "0xddce7e5ae0ac48f0fbf1711c622d114596813a0f",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2753",
+    "Owner": "0x52904ad47ec751e1a9f87de4d286761dd85a7f76",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2565",
+    "Owner": "0xa9c259047f1077311cd7558f85ec854a7eef490b",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "408",
+    "Owner": "0x41212e64d6aa1a12dad287104b0fc8ff42a9721d",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "272",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "4413",
+    "Owner": "0x1bf73c10189eab68e0f2b774241576f791726bb0",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "287",
+    "Owner": "0xdb9585e418a08b1ca5ca848646891d3cfba873c7",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4645",
+    "Owner": "0xdb9585e418a08b1ca5ca848646891d3cfba873c7",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "678",
+    "Owner": "0xdb9585e418a08b1ca5ca848646891d3cfba873c7",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "268",
+    "Owner": "0xdb9585e418a08b1ca5ca848646891d3cfba873c7",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "1332",
+    "Owner": "0xdb9585e418a08b1ca5ca848646891d3cfba873c7",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "4295",
+    "Owner": "0x5b0fe9be853cf623c3cc1fc17c057b6be8b92ee0",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "2532",
+    "Owner": "0x98898c09a82f98bc278bf197c5872f3e8261df67",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2266",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4502",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3727",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "3898",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2352",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "1030",
+    "Owner": "0x93408c7952268aa462c3fff1ec837938cadf2ef3",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3539",
+    "Owner": "0x40ce3e0fbc9072e6ba00f18adec27676333da7b5",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2095",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2580",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2571",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2744",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2981",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3636",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3639",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3798",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4146",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4475",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3041",
+    "Owner": "0xf1600eb68730bc980bbdb30d20d8676c85a050ee",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2134",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "3400",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "4126",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "3041",
+    "Owner": "0xf1600eb68730bc980bbdb30d20d8676c85a050ee",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4253",
+    "Owner": "0x01b4270911798d43c053a0ae7f8c98d1a28718d6",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4697",
+    "Owner": "0x214ec1c0eeebccdf907ae34f4db09096d1b7ee25",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3896",
+    "Owner": "0x647e8736b07002b5eb6bd004e35cdbfd93a45e9d",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "4833",
+    "Owner": "0xd87120aa0e9220948dcc3d207e0b3df2e4ade1b5",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2125",
+    "Owner": "0x3a5eaef84726dc243c1ed8d7bc98563366560220",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "634",
+    "Owner": "0x0f9747f9332c4b8292deb69f12954e2adcae01e4",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "832",
+    "Owner": "0x61d8c3b9d4e73f98d8a041aeb2e760931af3a610",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1235",
+    "Owner": "0x8b88e2342aab87cffff21211b78c6a13a725da53",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1998",
+    "Owner": "0x47f4e5ca3d84348004a531be3986c850b6e76e08",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2532",
+    "Owner": "0x98898c09a82f98bc278bf197c5872f3e8261df67",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "1587",
+    "Owner": "0x87b4b8e0066a012c2751021e9582bf0968b22532",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "3502",
+    "Owner": "0x87b4b8e0066a012c2751021e9582bf0968b22532",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "3393",
+    "Owner": "0x87b4b8e0066a012c2751021e9582bf0968b22532",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "4384",
+    "Owner": "0x87b4b8e0066a012c2751021e9582bf0968b22532",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "326",
+    "Owner": "0xe6a17351d2c501d6ff920d959a496ac41c4f05c2",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "835",
+    "Owner": "0xe6a17351d2c501d6ff920d959a496ac41c4f05c2",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "636",
+    "Owner": "0x0fc678a7cfef61b58999289cc4f76bca3079e80f",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "423",
+    "Owner": "0x8100890bb05fb5a615d6a8886656ecf254a98b91",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "1238",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2705",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "3496",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4099",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4820",
+    "Owner": "0x79a6144c95b84099d201f790494e03d3f2225d59",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2160",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "3047",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "4004",
+    "Owner": "0x4b2b4fe10d58d5a675e878014c7b531288aceb28",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "987",
+    "Owner": "0x4b2b4fe10d58d5a675e878014c7b531288aceb28",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "1828",
+    "Owner": "0x57ec18aee46d188a4d8d1575d104958a9a22d5b5",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "564",
+    "Owner": "0xef910db07f57120f0a0afcf8ccb5b71da5274052",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "1430",
+    "Owner": "0xdca48d537843f869302fde6a51a3e711ea3c0666",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "539",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "4260",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "1558",
+    "Owner": "0xea0f43ae329016a3ca3fc4cd55caafe5e1063451",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3776",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "482",
+    "Owner": "0xeae2fa8612ac96b195295698f284296672f22488",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4806",
+    "Owner": "0x765a16ca391a6b9249cfa65bf2d14c38722198e3",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "2137",
+    "Owner": "0xec524d869d2605f6b85d623a102e1512773260aa",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1878",
+    "Owner": "0xab9dd996e88faa0863ec2fb8246eff77ee49a4c5",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2557",
+    "Owner": "0x80b259b98c0506e9f113788376e7348054edb14e",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4465",
+    "Owner": "0xa68cbe7a3a93b33889c76531164f0b79be7aa441",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4200",
+    "Owner": "0xa6fe2a33029317a2215768c5dd947213c26fea86",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "716",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1001",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2921",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1902",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3472",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3041",
+    "Owner": "0xf1600eb68730bc980bbdb30d20d8676c85a050ee",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4752",
+    "Owner": "0x1a424b11b014ee763a5c13c8f8de3140b084985a",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4717",
+    "Owner": "0xb0481e4d9513924d3eef075781794ea81b14e0f7",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2476",
+    "Owner": "0xf8364a4e3a2337f8873afde6ef036ff4bf38d0b9",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "2184",
+    "Owner": "0x8d82e5a9ed5d400a71c07c2bbfcb1c2e7bd049b6",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "414",
+    "Owner": "0x19415ecc05162ded0543e4e41338a7cea6fb2a10",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "3567",
+    "Owner": "0x4fe5b1fc5bbbaf54889acfb13f273fb7566456e6",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1030",
+    "Owner": "0x93408c7952268aa462c3fff1ec837938cadf2ef3",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3539",
+    "Owner": "0x40ce3e0fbc9072e6ba00f18adec27676333da7b5",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "395",
+    "Owner": "0xf86b9a1b191d8afeeceab747bddf414a6542405f",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "4253",
+    "Owner": "0x01b4270911798d43c053a0ae7f8c98d1a28718d6",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2738",
+    "Owner": "0x84f94f296c61a30b314ef647486cd586ba2c229d",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2168",
+    "Owner": "0xb28b7980b2b3030e0905c603cffe597b0426fc26",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "1973",
+    "Owner": "0x5e7a2538d85d790c5f4cb4c9d36fcc24ed12c0f6",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2155",
+    "Owner": "0x5e7a2538d85d790c5f4cb4c9d36fcc24ed12c0f6",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2391",
+    "Owner": "0x64cd79dabdf61ae8c4058bfdd1ae53a10660f9ca",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3445",
+    "Owner": "0xded17db970297c9b157d79a59027d47f6f337d2b",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4833",
+    "Owner": "0xd87120aa0e9220948dcc3d207e0b3df2e4ade1b5",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1205",
+    "Owner": "0x5da9d3adcdf0375e9f28cff0e8c943da3937bcba",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "3900",
+    "Owner": "0x3a930be2c9d78f82a0ab3374400504280c0246f6",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "2276",
+    "Owner": "0x6ca1877672d34b212ea40c2974c167629ec952cc",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2266",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4502",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3727",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "3898",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "2352",
+    "Owner": "0x2162feb49e9efe2506de3273f4edabe09d36cbaf",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "1830",
+    "Owner": "0x9cfc43285dd11a5a75ceb37856bb9944f0a849ae",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4361",
+    "Owner": "0xa9bafbec10ffd28d122b1c19ff7a5dabd7364e22",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3823",
+    "Owner": "0xa9bafbec10ffd28d122b1c19ff7a5dabd7364e22",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "855",
+    "Owner": "0x055d025d6edaeddd192b241da30a632910ac1409",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3848",
+    "Owner": "0x055d025d6edaeddd192b241da30a632910ac1409",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1681",
+    "Owner": "0xc0553a677edcfea471ef01c9664dc5865a469883",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4766",
+    "Owner": "0xc0553a677edcfea471ef01c9664dc5865a469883",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4827",
+    "Owner": "0x2671b0e325d4aa9205caa55a89bd0e40c0da8057",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "409",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "470",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "489",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "647",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "676",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "781",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "796",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1700",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2257",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2290",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3735",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "1484",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "356",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "991",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "2259",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "1484",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "3540",
+    "Owner": "0x252097d2491d7dac679a1826886426cd73edaf35",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3802",
+    "Owner": "0x4d0852fca6ab6f5d6cf13604611a3ee2b0b020c6",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "4442",
+    "Owner": "0xc3b4fe415a5e370dcebf1f0ae640335600584a49",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "259",
+    "Owner": "0xc46138b77915267dfd3cd9984a34bb54fc9fa3ec",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "613",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2471",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2986",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "3003",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4767",
+    "Owner": "0xfb0c31fde2c300186196af37ed2b633af12264de",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2132",
+    "Owner": "0xb9a3ffa7a00ecda15ea7ee7af861db14194e8426",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "1681",
+    "Owner": "0xc0553a677edcfea471ef01c9664dc5865a469883",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4766",
+    "Owner": "0xc0553a677edcfea471ef01c9664dc5865a469883",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4827",
+    "Owner": "0x2671b0e325d4aa9205caa55a89bd0e40c0da8057",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4885",
+    "Owner": "0x853c6b1192adbd6a03884691e385caddebd122ec",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "363",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "363",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1955",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "613",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2471",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2986",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "3003",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1955",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1212",
+    "Owner": "0x9ab58276a02557ee32e8d52d2c24907f655cc751",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2997",
+    "Owner": "0xe76a65c96066ce50c943ac0f6e1445d4f4abb2fc",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "2394",
+    "Owner": "0x961c05f016df64d4d95d7b535828af290a8fe8be",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4767",
+    "Owner": "0xfb0c31fde2c300186196af37ed2b633af12264de",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "726",
+    "Owner": "0xb822e9d6fe80d13ba87cfc3a5be6a392e5169a20",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4815",
+    "Owner": "0x7c1d17877f2961ce2c758ec10fbb0f7a2511c1ca",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4145",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "4236",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "4377",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "4760",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "4884",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "4885",
+    "Owner": "0x853c6b1192adbd6a03884691e385caddebd122ec",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1844",
+    "Owner": "0x107723dd444ddb250bd56d717733a2f69485b7b7",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "363",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1955",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "613",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2471",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "2986",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "3003",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1759",
+    "Owner": "0x825acd62c9f7631939681d00802e7d58fec19f83",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "720",
+    "Owner": "0xdb331b49f950b6194ff5a222645286d2f5d3a45a",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2394",
+    "Owner": "0x961c05f016df64d4d95d7b535828af290a8fe8be",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "685",
+    "Owner": "0x5aa896d194f2e5331c6ebfeca7d52d1cfa60c995",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2997",
+    "Owner": "0xe76a65c96066ce50c943ac0f6e1445d4f4abb2fc",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "753",
+    "Owner": "0xe76a65c96066ce50c943ac0f6e1445d4f4abb2fc",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4832",
+    "Owner": "0xe76a65c96066ce50c943ac0f6e1445d4f4abb2fc",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "583",
+    "Owner": "0x8034b9608cc99ae21de7a19e12f581e0d8c80c6e",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "2084",
+    "Owner": "0x77d0edf73f01ede216b2121fdee46e6b2ed55d82",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3685",
+    "Owner": "0x31434972e45667dee9bcf05796ca80768b1c5aab",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "409",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "489",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "470",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "647",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "676",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "781",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "796",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1700",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2257",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2290",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3735",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2132",
+    "Owner": "0xb9a3ffa7a00ecda15ea7ee7af861db14194e8426",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "356",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "991",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "803",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "4290",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "4353",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "1294",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4072",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4334",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4788",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4335",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4086",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2884",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4073",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "730",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "3866",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "4418",
+    "Owner": "0x25959165b9baf7c5118a035be03db325485e5da2",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "1344",
+    "Owner": "0x36b5724185df73766d98c0f5e14c94be21e04235",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "4362",
+    "Owner": "0x1dc9c9b6e37d4add4109ee9c9b8c86e34d33c003",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "376",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1290",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1306",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1749",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2469",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2484",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4195",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4336",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4791",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4792",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4795",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4796",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4797",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1921",
+    "Owner": "0xc445846fee6d6256f1add7a3326605b31a4a667c",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "3383",
+    "Owner": "0xc445846fee6d6256f1add7a3326605b31a4a667c",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1000",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "1176",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "1764",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "3282",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "3323",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "3481",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "3681",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "4178",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "349",
+    "Owner": "0x9fff95a19d4ddf30d02dd390c61eea33cec03975",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "329",
+    "Owner": "0x76deecd6cb4ee0237cfa2321762736f9b431784a",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "376",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "203",
+    "Owner": "0x1204f4e0090cbe7adf0965bac131b648c41f754b",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2589",
+    "Owner": "0x0fb7e021697c7bf78f12f764330915d43d2eacec",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "1290",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2277",
+    "Owner": "0x90b42f30af0c731c7269d41f1d267ce0deb10e9b",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "1306",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2268",
+    "Owner": "0xe4ec9f0042d3533a52f7228cac24e65f6137051f",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "1749",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4354",
+    "Owner": "0x49c1b2b92a7b8419b49393abc07a271b12279a85",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "2469",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4397",
+    "Owner": "0x87b4b8e0066a012c2751021e9582bf0968b22532",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "1000",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "1176",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "1764",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "3282",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "3323",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "2484",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3481",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "3681",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "4178",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "4195",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "573",
+    "Owner": "0x78996e41041136004f8f2cc09150fddcf0b25443",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "3054",
+    "Owner": "0xbea2fdd2c47049f5fea143c71a31ce911c2f8fc4",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "4554",
+    "Owner": "0xbea2fdd2c47049f5fea143c71a31ce911c2f8fc4",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "4336",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3717",
+    "Owner": "0x58371d22ec5d2af6c0b4bfa971b60174da05fa52",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1470",
+    "Owner": "0xfb0c31fde2c300186196af37ed2b633af12264de",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4791",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4792",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "663",
+    "Owner": "0xe82c205a527a064e5067c536f04f526c73faa788",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "3838",
+    "Owner": "0xe82c205a527a064e5067c536f04f526c73faa788",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4795",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2177",
+    "Owner": "0x36b73f545b8ca8e400b0a909d213c34b96ceb5c4",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "4796",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3789",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4882",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "376",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1290",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "1306",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1749",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2469",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4797",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2484",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4195",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4336",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4791",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4792",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4795",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4796",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4797",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "255",
+    "Owner": "0x869de65a14a6aaccfefaae816a93a98310a48963",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "4907",
+    "Owner": "0xb21381aa36ed58d4a47ab1937c9a540bd55b7839",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2889",
+    "Owner": "0xd2e5a0d288ba2609625578e254450a0c05ac9a43",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3461",
+    "Owner": "0x5813f3ade7c411ce05dd662f403a59630bfd5b3e",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "329",
+    "Owner": "0x76deecd6cb4ee0237cfa2321762736f9b431784a",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3660",
+    "Owner": "0x27d5cdd0e0e570abeb62f0bd1aeba392066fd1fd",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3461",
+    "Owner": "0x5813f3ade7c411ce05dd662f403a59630bfd5b3e",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "519",
+    "Owner": "0x30c568c5d6f9fb383986cfd6dd99effc0444b869",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "1507",
+    "Owner": "0x30c568c5d6f9fb383986cfd6dd99effc0444b869",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "2786",
+    "Owner": "0x30c568c5d6f9fb383986cfd6dd99effc0444b869",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "2995",
+    "Owner": "0x30c568c5d6f9fb383986cfd6dd99effc0444b869",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "347",
+    "Owner": "0xc289403317518a547e3920f6407cad72b600f340",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "990",
+    "Owner": "0xcac9b9e4f4e407befedbe035a411a9fc4772fed1",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "449",
+    "Owner": "0x8d3ab0c66ebe6d5651553111435a3f1a04fd6f32",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "3977",
+    "Owner": "0xc289403317518a547e3920f6407cad72b600f340",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "4831",
+    "Owner": "0xd5ff2437e3455f0f11e7f5abd735ff9aa557228e",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "2370",
+    "Owner": "0xbabb3f6d6f11646cc3c7d92bf0311b87da0f7caf",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "1304",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "3114",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "3119",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "3122",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "263",
+    "Owner": "0xc46138b77915267dfd3cd9984a34bb54fc9fa3ec",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "960",
+    "Owner": "0xbea2fdd2c47049f5fea143c71a31ce911c2f8fc4",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "359",
+    "Owner": "0x7cbcf0714a25e79d695251afd978395491544be2",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "2351",
+    "Owner": "0xec838661cb340a94b9a94ca6dec8ee5a1f94ea2b",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "3179",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "3525",
+    "Owner": "0xefb425409d8af361f08daa40c156de0bafa03fed",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "3654",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "514",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4859",
+    "Owner": "0xf2e7ce54083756627f86cb7b691489fafa78476f",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "2358",
+    "Owner": "0xf2e7ce54083756627f86cb7b691489fafa78476f",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "1930",
+    "Owner": "0xa64f4160a27b7fe2a055acf2532152a75c5e1bc4",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "2600",
+    "Owner": "0xd4e8a881d10382a621948a3e25d2d25be5371317",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4225",
+    "Owner": "0xf2e7ce54083756627f86cb7b691489fafa78476f",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "828",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1302",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1671",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2451",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "2651",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "782",
+    "Owner": "0xbea2fdd2c47049f5fea143c71a31ce911c2f8fc4",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "4484",
+    "Owner": "0xf1ef519554d7951a86052f35fe1bd00dedbce1a3",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "569",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1184",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1210",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3641",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "3654",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "828",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1302",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1671",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2451",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "514",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2651",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "828",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1302",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1671",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2451",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3179",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "3360",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "391",
+    "Owner": "0x2e29d35f38829f2df7247a48852c01d982f2c623",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "1886",
+    "Owner": "0x2e29d35f38829f2df7247a48852c01d982f2c623",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "3294",
+    "Owner": "0x2e29d35f38829f2df7247a48852c01d982f2c623",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "4710",
+    "Owner": "0x2e29d35f38829f2df7247a48852c01d982f2c623",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "782",
+    "Owner": "0xbea2fdd2c47049f5fea143c71a31ce911c2f8fc4",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "1930",
+    "Owner": "0xa64f4160a27b7fe2a055acf2532152a75c5e1bc4",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "341",
+    "Owner": "0x90b42f30af0c731c7269d41f1d267ce0deb10e9b",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "3871",
+    "Owner": "0x2097a10a6f3965594c3d7f6fb18f2e19f9ab02f1",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "964",
+    "Owner": "0x766cedf83641732c5019ac4fce2e07ac505994b9",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "964",
+    "Owner": "0x766cedf83641732c5019ac4fce2e07ac505994b9",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "545",
+    "Owner": "0x832931db2c58dde17b73eec877cdeca98faac4cd",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "4024",
+    "Owner": "0x1f0028a728e80dba6222b4075c986ad72a09484e",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "4524",
+    "Owner": "0x9d8e45d2bc0875398fbbe71c92f8b1fbc53e4075",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4582",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "282",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "332",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2008",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3606",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "3790",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1816",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3292",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "4682",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1424",
+    "Owner": "0xbed893771ca2936054eee05056413f1c9f251e2c",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2309",
+    "Owner": "0x3bc13761c860b6c3ae50e17a3691cdc99762b4e4",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "3578",
+    "Owner": "0xbe742a54ef95138fe7511336f56b2ae556e1c0b7",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "695",
+    "Owner": "0x30c568c5d6f9fb383986cfd6dd99effc0444b869",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "1024",
+    "Owner": "0xd9e7c96befa5084b9fbdd8c815e135faffb132a7",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "2726",
+    "Owner": "0xa64f4160a27b7fe2a055acf2532152a75c5e1bc4",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3251",
+    "Owner": "0xa64f4160a27b7fe2a055acf2532152a75c5e1bc4",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "722",
+    "Owner": "0xa64f4160a27b7fe2a055acf2532152a75c5e1bc4",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "2113",
+    "Owner": "0xa64f4160a27b7fe2a055acf2532152a75c5e1bc4",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "817",
+    "Owner": "0xa64f4160a27b7fe2a055acf2532152a75c5e1bc4",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "1131",
+    "Owner": "0xa16f7068bbb2952decad0427dba35db47a918059",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "2870",
+    "Owner": "0xbacbb79b5deeb95ef6ffc6870be67e7b252a446b",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "3286",
+    "Owner": "0xee16b5f33d7d328f023240e24a4c5c34edbbb836",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3190",
+    "Owner": "0xb7abb5fc3d7ee0a66735e18193857b8a971686cc",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "3361",
+    "Owner": "0xa6a59a87b577f434513949ad3172261d7b7f691d",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "339",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "981",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1677",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "2861",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "4116",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "4119",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4608",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "4661",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4807",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4916",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "4921",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "325",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "764",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "3088",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "3800",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1851",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "3005",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "3072",
+    "Owner": "0xef3694adf19f966e17412b736acf0e728de4e6ff",
+    "MetaDataUrl": "rare/blue.json"
+  },
+  {
+    "TokenId": "793",
+    "Owner": "0x7cbcf0714a25e79d695251afd978395491544be2",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "2651",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "3654",
+    "Owner": "0xab2bd858f8afeaf1bb6bf065c92910b22ee1c5f3",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "2396",
+    "Owner": "0x9e0160db88630a8574b533dc52b5714b59da4378",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2880",
+    "Owner": "0x9e0160db88630a8574b533dc52b5714b59da4378",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "2483",
+    "Owner": "0x9e0160db88630a8574b533dc52b5714b59da4378",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "828",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1302",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1671",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "2451",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "569",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "uncommon/blue.json"
+  },
+  {
+    "TokenId": "1184",
+    "Owner": "0xcf27cc3a645890546aee69a56e9ce64de6a7dd57",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "1521",
+    "Owner": "0x49c1b2b92a7b8419b49393abc07a271b12279a85",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "495",
+    "Owner": "0x93408c7952268aa462c3fff1ec837938cadf2ef3",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "1617",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "2341",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "3764",
+    "Owner": "0x05ef062bc7ba72ea281a3d77fd3bcbc49c606e9c",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "2201",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "legendary/red.json"
+  },
+  {
+    "TokenId": "3116",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "3121",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "3128",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "3133",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "3136",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "3146",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "1617",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "2341",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "714",
+    "Owner": "0x243c2eb069cab913a4e2747eb27ad4e593507e00",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "1093",
+    "Owner": "0x243c2eb069cab913a4e2747eb27ad4e593507e00",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "4305",
+    "Owner": "0x243c2eb069cab913a4e2747eb27ad4e593507e00",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "1521",
+    "Owner": "0x49c1b2b92a7b8419b49393abc07a271b12279a85",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "571",
+    "Owner": "0xdf1225d8257fd0df45f581d6fedf1d3e3e1c53fe",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "4023",
+    "Owner": "0x7eafcc697e7bc14313c22325ecc17b21d5232bf9",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "936",
+    "Owner": "0x8d3ab0c66ebe6d5651553111435a3f1a04fd6f32",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "2605",
+    "Owner": "0x8d3ab0c66ebe6d5651553111435a3f1a04fd6f32",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "4343",
+    "Owner": "0x8d3ab0c66ebe6d5651553111435a3f1a04fd6f32",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "1617",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "2341",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "2569",
+    "Owner": "0xbabb3f6d6f11646cc3c7d92bf0311b87da0f7caf",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "2546",
+    "Owner": "0x2b536ac540d4308e888b0152fcde9e152953de65",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "3116",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "3121",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/green.json"
+  },
+  {
+    "TokenId": "3128",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "3133",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "3136",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "3146",
+    "Owner": "0x6b52472b562dcea406ef5217c2b55a35e911efcc",
+    "MetaDataUrl": "epic/blue.json"
+  },
+  {
+    "TokenId": "1227",
+    "Owner": "0x30adfde51e83649b30faac38e96d3619cbe347c5",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "4441",
+    "Owner": "0x30adfde51e83649b30faac38e96d3619cbe347c5",
+    "MetaDataUrl": "uncommon/orange.json"
+  },
+  {
+    "TokenId": "1443",
+    "Owner": "0x74f474951710be2c58e8c2d7831b8e3e0a4b1bc3",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "1786",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "4793",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "1786",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "609",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "2552",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "3534",
+    "Owner": "0x040f9f744ee3f6d2b62ebc2f7120c38c76cec7f5",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "4793",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "1617",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "2341",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "1521",
+    "Owner": "0x49c1b2b92a7b8419b49393abc07a271b12279a85",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "3457",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "2770",
+    "Owner": "0x749a1cd4e73e91d7fa690242e1bad0ce6bd6ee8c",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "3939",
+    "Owner": "0xca72e57b673580024e4e41e2924445cb6df9b917",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2770",
+    "Owner": "0x749a1cd4e73e91d7fa690242e1bad0ce6bd6ee8c",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1349",
+    "Owner": "0x1138f3a58bdbc5cfe09276de26941a80a7ee2477",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "1617",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/orange.json"
+  },
+  {
+    "TokenId": "2341",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "4010",
+    "Owner": "0x4da17a2549563dc28deb3c62c8c1295cc91fd5cb",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "1728",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "2479",
+    "Owner": "0x2b536ac540d4308e888b0152fcde9e152953de65",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "535",
+    "Owner": "0xbabb3f6d6f11646cc3c7d92bf0311b87da0f7caf",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "1119",
+    "Owner": "0x721d300dd8f15d5e872ca06261ec76f18a84cf6d",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "3547",
+    "Owner": "0x721d300dd8f15d5e872ca06261ec76f18a84cf6d",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "3673",
+    "Owner": "0x721d300dd8f15d5e872ca06261ec76f18a84cf6d",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "4453",
+    "Owner": "0x721d300dd8f15d5e872ca06261ec76f18a84cf6d",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "1786",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "4793",
+    "Owner": "0xb1ccf1f1104be1d4859e22238c10231f33963d35",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "2722",
+    "Owner": "0x30adfde51e83649b30faac38e96d3619cbe347c5",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "3795",
+    "Owner": "0x30adfde51e83649b30faac38e96d3619cbe347c5",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "3939",
+    "Owner": "0xca72e57b673580024e4e41e2924445cb6df9b917",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "2201",
+    "Owner": "0x1891a3407e4e4f6f15b98a1be75871e0e2c813da",
+    "MetaDataUrl": "legendary/red.json"
+  },
+  {
+    "TokenId": "1443",
+    "Owner": "0x74f474951710be2c58e8c2d7831b8e3e0a4b1bc3",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "513",
+    "Owner": "0xc196eb8d5a08fb6ce0297b2748e18137f2b431fc",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "3434",
+    "Owner": "0xc196eb8d5a08fb6ce0297b2748e18137f2b431fc",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "3739",
+    "Owner": "0xc196eb8d5a08fb6ce0297b2748e18137f2b431fc",
+    "MetaDataUrl": "rare/green.json"
+  },
+  {
+    "TokenId": "3317",
+    "Owner": "0xc196eb8d5a08fb6ce0297b2748e18137f2b431fc",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "844",
+    "Owner": "0x0464b852cd3a113edb77b57ca97a9a0deea5e433",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "819",
+    "Owner": "0x000565ba6920e79518e8a49609a200da2ce3893f",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "786",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "571",
+    "Owner": "0xdf1225d8257fd0df45f581d6fedf1d3e3e1c53fe",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "3269",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/orange.json"
+  },
+  {
+    "TokenId": "3975",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "590",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "1609",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/green.json"
+  },
+  {
+    "TokenId": "2978",
+    "Owner": "0x5521bd3868945956e23f1568534218af145a1e8c",
+    "MetaDataUrl": "common/purple.json"
+  },
+  {
+    "TokenId": "718",
+    "Owner": "0x4d0852fca6ab6f5d6cf13604611a3ee2b0b020c6",
+    "MetaDataUrl": "rare/orange.json"
+  },
+  {
+    "TokenId": "1728",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "3929",
+    "Owner": "0xc3489890b7320c052758adcdc08fc12ead45e496",
+    "MetaDataUrl": "common/red.json"
+  },
+  {
+    "TokenId": "4136",
+    "Owner": "0xb1d289f57c77e4ad8cdb70c29864b4c9d32be440",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "714",
+    "Owner": "0x243c2eb069cab913a4e2747eb27ad4e593507e00",
+    "MetaDataUrl": "epic/turquoise.json"
+  },
+  {
+    "TokenId": "1093",
+    "Owner": "0x243c2eb069cab913a4e2747eb27ad4e593507e00",
+    "MetaDataUrl": "epic/red.json"
+  },
+  {
+    "TokenId": "4305",
+    "Owner": "0x243c2eb069cab913a4e2747eb27ad4e593507e00",
+    "MetaDataUrl": "epic/purple.json"
+  },
+  {
+    "TokenId": "2026",
+    "Owner": "0x2b536ac540d4308e888b0152fcde9e152953de65",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "3078",
+    "Owner": "0x2b536ac540d4308e888b0152fcde9e152953de65",
+    "MetaDataUrl": "common/turquoise.json"
+  },
+  {
+    "TokenId": "3512",
+    "Owner": "0x2b536ac540d4308e888b0152fcde9e152953de65",
+    "MetaDataUrl": "uncommon/turquoise.json"
+  },
+  {
+    "TokenId": "4508",
+    "Owner": "0x2b536ac540d4308e888b0152fcde9e152953de65",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "379",
+    "Owner": "0x6568afc5b8c903b4d612e3e66133d26a0ae85868",
+    "MetaDataUrl": "rare/turquoise.json"
+  },
+  {
+    "TokenId": "1521",
+    "Owner": "0x49c1b2b92a7b8419b49393abc07a271b12279a85",
+    "MetaDataUrl": "uncommon/green.json"
+  },
+  {
+    "TokenId": "3764",
+    "Owner": "0x05ef062bc7ba72ea281a3d77fd3bcbc49c606e9c",
+    "MetaDataUrl": "uncommon/purple.json"
+  },
+  {
+    "TokenId": "495",
+    "Owner": "0x93408c7952268aa462c3fff1ec837938cadf2ef3",
+    "MetaDataUrl": "rare/red.json"
+  },
+  {
+    "TokenId": "571",
+    "Owner": "0xdf1225d8257fd0df45f581d6fedf1d3e3e1c53fe",
+    "MetaDataUrl": "rare/purple.json"
+  },
+  {
+    "TokenId": "2722",
+    "Owner": "0x30adfde51e83649b30faac38e96d3619cbe347c5",
+    "MetaDataUrl": "uncommon/red.json"
+  },
+  {
+    "TokenId": "4750",
+    "Owner": "0x30adfde51e83649b30faac38e96d3619cbe347c5",
+    "MetaDataUrl": "common/blue.json"
+  },
+  {
+    "TokenId": "1728",
+    "Owner": "0x29ff4fd679124c025189aecc552d0c1b32214bb4",
+    "MetaDataUrl": "rare/turquoise.json"
+  }
+]

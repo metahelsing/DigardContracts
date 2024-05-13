@@ -1,0 +1,47 @@
+{
+    "name": "Basic Amulet",
+    "description": "Basic Amulet",
+    "image": "https://cdn.digard.io/Eldarune/EldaruneGameCollection/media/item/10006.png",
+    "attributes": [
+        {
+            "trait_type": "Type",
+            "value": "Item"
+        },
+        {
+            "trait_type": "Level",
+            "value": "10"
+        },
+        {
+            "text": "Level",
+            "value": "10"
+        },
+        {
+            "text": "Armor",
+            "value": "100"
+        },
+        {
+            "text": "Hit Points",
+            "value": "350"
+        },
+        {
+            "text": "Damage",
+            "value": "100"
+        },
+        {
+            "text": "Level",
+            "value": "7"
+        },
+        {
+            "text": "Armor",
+            "value": "35"
+        },
+        {
+            "text": "Hit Points",
+            "value": "200"
+        },
+        {
+            "text": "Damage",
+            "value": "40"
+        }
+    ]
+}

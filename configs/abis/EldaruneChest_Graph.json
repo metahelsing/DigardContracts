@@ -1,0 +1,339 @@
+[
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ChestOpen",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "ownerAddress",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "tokenUri",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "chestTokenId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "winTokenId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "dropChange",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PackageOpen",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "packageTokenId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "ownerAddress",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "tokenUri",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PackageOpenWithAmount",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "packageTokenId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "ownerAddress",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "tokenUri",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveChest",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "chestCollectionAddress",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "chestItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "collectionAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "chestItemId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "minChance"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "maxChance"
+                    },
+                    {
+                        "type": "uint256[]",
+                        "name": "tokenIds"
+                    },
+                    {
+                        "type": "uint8",
+                        "name": "rarity"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SavePackage",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "packageCollectionAddress",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "packageItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "maxOwnedAmount"
+                    },
+                    {
+                        "type": "address",
+                        "name": "collectionAddress"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    }
+]

@@ -1,0 +1,39 @@
+[
+  {
+    "playerAddress": "0xa9c33C0c2Eefb0a450B5cFd589bCac57214409B3",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 0,
+        "tokenId": 1,
+        "amount": 5,
+        "deactive": false
+      },
+      {
+        "nftContractIndex": 0,
+        "tokenId": 3,
+        "amount": 1,
+        "deactive": false
+      },
+      {
+        "nftContractIndex": 0,
+        "tokenId": 2,
+        "amount": 3,
+        "deactive": false
+      },
+      {
+        "nftContractIndex": 0,
+        "tokenId": 4,
+        "amount": 2,
+        "deactive": false
+      },
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  }
+]

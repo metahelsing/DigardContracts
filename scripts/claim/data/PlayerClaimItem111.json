@@ -1,0 +1,631 @@
+[
+  {
+    "playerAddress": "0x29ff4FD679124C025189aeCC552d0c1b32214bb4",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 2,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xfEDA39Ac6826922F47c3d8289a463c8F1b0581aB",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x107723Dd444DDb250BD56D717733a2f69485B7B7",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x254448A800c260Df199c899a21cf007ea9b88225",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x50De2158412Aa6c36F6d0Ebc40e04b6a10C1b693",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x832931DB2c58ddE17b73eeC877cdeCa98FaAC4cD",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x48Fe791dF7f9Afc1cA56063440F020dD943f2772",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x3763e10a58B64c51A960Af23084FB3e48a01cB18",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xB1cCf1F1104Be1D4859E22238C10231f33963D35",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x074762312447b4ef38d0eaAF508B437997A5Fee4",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x3beDcD77f568F1fF0398B79eb1149b29Ec250E35",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x762Dfa431cB3c545aD23c6F3F0daa371e217309a",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 2,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xbFbe5Cc2289545FA0793f9ae35b59693635A0051",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x31E8E134C61693740498fadaE27ade14030c1Ecf",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x635e89958403cfcA1cAdB6AdE7019F367fC20229",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x6c244BB3c9feE2790Db77b03912d30Bca06AC38a",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x01b4270911798d43c053A0aE7f8c98D1A28718d6",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x8D87cCEF83be38198c7AB38150b4618F34B44984",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xfad344AEB7a0d084CEAA6aa5cf4c59b9923B6779",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x17F81c220E731c9351e4B1Ad349Dd9C277Aa373F",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x6128EdF025AfFcD944aDC9C247Aff2b72892E721",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x7E9661c45e1fb0633df22DCd5bA21204de1b111d",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xfd3Cc03b0BC89D8Bdc6B56FEfB61f45F69A30360",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x6cd1522bE8eC2178E920367422e155cAA21341e7",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xb7e143bFe8B1fe4FBCFBE2fA6B60251f50510265",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xC9C8804A38814f2DbbB661c88E26328b558DB460",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x4b16475AcfaA9920C2aFb1aA49f9a18B68eA6944",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x73381f736Ce7e201E6B55690e0bF3292dF57bb03",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xADC8F313C7205D4Def2545460037b3E4260E383f",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x49F1dCfA3a65468f981D3b7C43Fa5b49364bd0F6",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x2432DBDc57Bd0DaBE134C3Ad2f3e93B71bc1fe8C",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 2,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xFddc3b02Ec3271410A5D3f67ADfAD25F03fF4Fdc",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xFD592B3Cf05Adf3EF442DE2B3b4589dBe948bB53",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x372fE864E6E40F66b0c2F50B475ef525571dF81f",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xC41C9479ccD2E08c859D00487464c5B7C98E246A",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x4607c15A8C901d1F461D987ac7B5396E51Ad53Fe",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xE8d2d8DA13cD8269B15831AAD39A72C6e4Dbf3f8",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 2,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x98Ce01ae75425a5E6cf68C5809bb69EF7A1185D4",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x9A9c67eE43fad132978Fbf7A59707a0825e1d102",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 1,
+        "deactive": false
+      },
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x726853E877bc22fB5CB6F3e516860fFEb9709043",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xfD099bc5aaB78936D43B4D8b5fc9e75DaD4C54Bd",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x9343989394Bb9e73328604a8Dd6af13d34CC329B",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xB99D1B41E38a15E7a9ef18c4fA4ad8690c8Cd50A",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x3b95eE6404b85C698f5866aAF358c11C016EB80C",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0xE30009CE9E8d843B5ea51BcA2E2705D1c5C27e4D",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 2,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x10dC7Ac2365acc8E37e637d7D886730B82d0E4c1",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 2,
+        "deactive": false
+      },
+      {
+        "nftContractIndex": 1,
+        "tokenId": 3,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  },
+  {
+    "playerAddress": "0x2507cb64BCb7D3B39ff46962322B1AECd133233F",
+    "tokenAmount": 0,
+    "lock": false,
+    "claimNftItems": [
+      {
+        "nftContractIndex": 1,
+        "tokenId": 4,
+        "amount": 2,
+        "deactive": false
+      },
+      {
+        "nftContractIndex": 1,
+        "tokenId": 3,
+        "amount": 1,
+        "deactive": false
+      }
+    ]
+  }
+]

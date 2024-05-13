@@ -1,0 +1,516 @@
+[
+    {
+        "type": "constructor",
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "OwnershipTransferred",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousOwner",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "newOwner",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StakingProgramEvent",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingProgramId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "stakingLevel",
+                "indexed": true
+            },
+            {
+                "type": "uint256[3]",
+                "name": "stakingTimeDuration",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingBlockWaitSize",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "rewardId",
+                "indexed": true
+            },
+            {
+                "type": "string",
+                "name": "rewardName",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StakingSubscribeEvent",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingSubscribeId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingProgramId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingStartDate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingEndDate",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "stakingStartBlock",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "stakerAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StakingUnSubscribeEvent",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingSubscribeId",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "claimAll",
+        "constant": false,
+        "payable": false,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "claimAllOwnable",
+        "constant": false,
+        "payable": false,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "getTargetBlock",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "uint256[]"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "initialize",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "__utilityBoxContractAddress"
+            },
+            {
+                "type": "address",
+                "name": "__utilityUpgradeContractAddress"
+            },
+            {
+                "type": "tuple[]",
+                "name": "__stakingPrograms",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "stakingProgramId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "stakingLevel"
+                    },
+                    {
+                        "type": "uint256[3]",
+                        "name": "stakingTimeDuration"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "stakingBlockWaitSize"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "rewardId"
+                    },
+                    {
+                        "type": "string",
+                        "name": "rewardName"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "onERC721Received",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "_operator"
+            },
+            {
+                "type": "address",
+                "name": "_from"
+            },
+            {
+                "type": "uint256",
+                "name": "_tokenId"
+            },
+            {
+                "type": "bytes",
+                "name": "_data"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes4"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "owner",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "pause",
+        "constant": false,
+        "payable": false,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "paused",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "proxiableUUID",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "renounceOwnership",
+        "constant": false,
+        "payable": false,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveDigardClaimAddress",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "__digardClaimAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveStakingProgram",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "tuple[]",
+                "name": "__stakingPrograms",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "stakingProgramId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "stakingLevel"
+                    },
+                    {
+                        "type": "uint256[3]",
+                        "name": "stakingTimeDuration"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "stakingBlockWaitSize"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "rewardId"
+                    },
+                    {
+                        "type": "string",
+                        "name": "rewardName"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "sendPlayerClaim",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingSubscribeId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "stakeOwner",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "stakingSubscribeId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "stakeSubscribe",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "uint256[]",
+                "name": "_tokenIds"
+            },
+            {
+                "type": "uint256",
+                "name": "_stakingProgramId"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "stakingSubscribeIds",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "inputs": [
+            {
+                "type": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "transferOwnership",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newOwner"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "unpause",
+        "constant": false,
+        "payable": false,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeTo",
+        "constant": false,
+        "payable": false,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeToAndCall",
+        "constant": false,
+        "stateMutability": "payable",
+        "payable": true,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            },
+            {
+                "type": "bytes",
+                "name": "data"
+            }
+        ],
+        "outputs": []
+    }
+]

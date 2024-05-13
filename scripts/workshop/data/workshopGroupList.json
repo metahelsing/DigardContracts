@@ -1,0 +1,42 @@
+[
+  {
+    "workshopGroupId": 1,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 2,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 3,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 4,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 5,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 6,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 7,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 8,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 9,
+    "disableChanceRatio": false
+  },
+  {
+    "workshopGroupId": 10,
+    "disableChanceRatio": true
+  }
+]

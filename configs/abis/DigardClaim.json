@@ -1,0 +1,976 @@
+[
+    {
+        "type": "constructor",
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ChangeNftClaimStatus",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "nftContractAddress",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "bool",
+                "name": "deactive",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ChangePlayerClaimLockStatus",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "lock",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ClearPlayerClaim",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "clearToken",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "clearAllNftAssets",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "nftContractAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PlayerClaimAdded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "tokenContractAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "nftContractAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PlayerNftClaimed",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "nftContractAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PlayerTokenClaimed",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveClaimRewardContractAddress",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "contractAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenStandart",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "ADD_CLAIM_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "DEFAULT_ADMIN_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "PAUSER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "UPGRADER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "addPlayerClaimBatch",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "tuple[]",
+                "name": "playerClaimItems",
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "playerAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenAmount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "lock"
+                    },
+                    {
+                        "type": "tuple[]",
+                        "name": "claimNftItems",
+                        "components": [
+                            {
+                                "type": "uint256",
+                                "name": "nftContractIndex"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "tokenId"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "amount"
+                            },
+                            {
+                                "type": "bool",
+                                "name": "deactive"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "addPlayerClaimNft",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            },
+            {
+                "type": "uint256",
+                "name": "nftContractIndex"
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId"
+            },
+            {
+                "type": "uint256",
+                "name": "amount"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "addPlayerToken",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            },
+            {
+                "type": "uint256",
+                "name": "amount"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "changeClaimNftContractStatus",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "_nftContractIndex"
+            },
+            {
+                "type": "bool",
+                "name": "_deactive"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "changePlayerClaimLockStatus",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            },
+            {
+                "type": "bool",
+                "name": "lock"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "claimRewardOwner",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "claimRewards",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "clearPlayerClaim",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            },
+            {
+                "type": "bool",
+                "name": "clearTokenAmount"
+            },
+            {
+                "type": "bool",
+                "name": "clearAllNftAssets"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "clearPlayerNft",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "nftContractIndex"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "getAcceptedNftRewardAddress",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "address[]"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getPlayerClaimList",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "tuple[]",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "nftContractIndex"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getRewardContractByIndex",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "index"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "address"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getRoleAdmin",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "grantRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "hasRole",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "initialize",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "tokenRewardAddress"
+            },
+            {
+                "type": "address[]",
+                "name": "nftRewardAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "pause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "paused",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "proxiableUUID",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "renounceRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "revokeRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveClaimRewardContractAddress",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "tokenRewardAddress"
+            },
+            {
+                "type": "address[]",
+                "name": "nftRewardAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "supportsInterface",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes4",
+                "name": "interfaceId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "unpause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "updatePlayerNft",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "nftContractIndex"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeTo",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeToAndCall",
+        "constant": false,
+        "stateMutability": "payable",
+        "payable": true,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            },
+            {
+                "type": "bytes",
+                "name": "data"
+            }
+        ],
+        "outputs": []
+    }
+]

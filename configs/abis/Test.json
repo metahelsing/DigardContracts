@@ -1,0 +1,147 @@
+[
+    {
+        "type": "function",
+        "name": "_stakingSubscribes",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address"
+            },
+            {
+                "type": "uint256"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "uint256",
+                "name": "stakingSubscribeId"
+            },
+            {
+                "type": "uint256",
+                "name": "stakingProgramId"
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId"
+            },
+            {
+                "type": "uint256",
+                "name": "amount"
+            },
+            {
+                "type": "uint256",
+                "name": "startTime"
+            },
+            {
+                "type": "bool",
+                "name": "active"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getStakingSubscribe",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "tuple[]",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "stakingSubscribeId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "stakingProgramId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "startTime"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "active"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "removeStakingSubscribe",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveStakingSubscribe",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "tuple",
+                "name": "_stakingInformation",
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "stakingSubscribeId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "stakingProgramId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "startTime"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "active"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "playerAddress"
+            }
+        ],
+        "outputs": []
+    }
+]

@@ -1,0 +1,46 @@
+[
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Approval",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "owner",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "spender",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "value",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Transfer",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "from",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "to",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "value",
+                "indexed": false
+            }
+        ]
+    }
+]

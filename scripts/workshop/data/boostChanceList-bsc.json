@@ -1,0 +1,35 @@
+{
+  "workshopGroupIds": [1, 2, 3, 4, 5, 6, 7, 8, 9],
+  "boostChanceItems": [
+    {
+      "tokenId": 2,
+      "boostChance": 30,
+      "tokenAddress": "0x4834897652c0C7052270abFfbeD0B4Ec2C5e673C"
+    },
+    {
+      "tokenId": 3,
+      "boostChance": 40,
+      "tokenAddress": "0x4834897652c0C7052270abFfbeD0B4Ec2C5e673C"
+    },
+    {
+      "tokenId": 4,
+      "boostChance": 50,
+      "tokenAddress": "0x4834897652c0C7052270abFfbeD0B4Ec2C5e673C"
+    },
+    {
+      "tokenId": 5,
+      "boostChance": 60,
+      "tokenAddress": "0x4834897652c0C7052270abFfbeD0B4Ec2C5e673C"
+    },
+    {
+      "tokenId": 6,
+      "boostChance": 70,
+      "tokenAddress": "0x4834897652c0C7052270abFfbeD0B4Ec2C5e673C"
+    },
+    {
+      "tokenId": 7,
+      "boostChance": 80,
+      "tokenAddress": "0x4834897652c0C7052270abFfbeD0B4Ec2C5e673C"
+    }
+  ]
+}

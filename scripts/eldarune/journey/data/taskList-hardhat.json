@@ -1,0 +1,62 @@
+[
+    {
+        "mission": {
+            "missionId": "1",
+            "blockCount": "20",
+            "numberOfRepetitions": "0",
+            "paymentTokenAmount": "100",
+            "paymentTokenAddress": "0xffD564ad6a05B07cA291373BB98DE354a48cEcd7",
+            "missionUrl": "https://cdn.digard.io/Eldarune/EldaruneJourney/missions/1.json",
+            "rewards": [
+                {
+                    "tokenAddress": "0xffD564ad6a05B07cA291373BB98DE354a48cEcd7",
+                    "tokenId": "0",
+                    "amount": "100"
+                },
+                {
+                    "tokenAddress": "0x51d54dc3b9ebdD107660055841334893370a1a5b",
+                    "tokenId": "1000",
+                    "amount": "2"
+                }
+            ]
+        },
+        "requirementNFTs": [
+            {
+                "tokenAddress": "0x51d54dc3b9ebdD107660055841334893370a1a5b",
+                "tokenIds": ["1000"],
+                "amount": "3",
+                "burnRate": "0"
+            }
+        ]
+    },
+    {
+        "mission": {
+            "missionId": "2",
+            "blockCount": "20",
+            "numberOfRepetitions": "0",
+            "paymentTokenAmount": "100",
+            "paymentTokenAddress": "0xffD564ad6a05B07cA291373BB98DE354a48cEcd7",
+            "missionUrl": "https://cdn.digard.io/Eldarune/EldaruneJourney/missions/2.json",
+            "rewards": [
+                {
+                    "tokenAddress": "0xffD564ad6a05B07cA291373BB98DE354a48cEcd7",
+                    "tokenId": "0",
+                    "amount": "500"
+                },
+                {
+                    "tokenAddress": "0x51d54dc3b9ebdD107660055841334893370a1a5b",
+                    "tokenId": "1000",
+                    "amount": "5"
+                }
+            ]
+        },
+        "requirementNFTs": [
+            {
+                "tokenAddress": "0x51d54dc3b9ebdD107660055841334893370a1a5b",
+                "tokenIds": ["1010"],
+                "amount": "5",
+                "burnRate": "0"
+            }
+        ]
+    }
+]

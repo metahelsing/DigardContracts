@@ -1,0 +1,869 @@
+[
+    {
+        "type": "constructor",
+        "payable": false,
+        "inputs": []
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "EndMission",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "walletAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "subscribeId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveMission",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": false
+            },
+            {
+                "type": "uint256[3]",
+                "name": "lockTime",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "numberOfRepetitions",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "paymentTokenAmount",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "paymentTokenAddress",
+                "indexed": false
+            },
+            {
+                "type": "string",
+                "name": "missionUrl",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveRequirement",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "requirementNFTs",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256[]",
+                        "name": "tokenIds"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "burnRate"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveReward",
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "rewards",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "uint256",
+                        "name": "claimRewardContractIndex"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "StartMission",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "walletAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "subscribeId",
+                "indexed": false
+            },
+            {
+                "type": "uint256",
+                "name": "missionId",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "endTime",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "requirementNfts",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "burnRate"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "DEFAULT_ADMIN_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "PAUSER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "SAVE_MISSION_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "UPGRADER_ROLE",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "claimBulkMission",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "getMissionAmount",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId"
+            },
+            {
+                "type": "tuple[]",
+                "name": "missionRequirementNFTs",
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "burnRate"
+                    }
+                ]
+            }
+        ],
+        "outputs": [
+            {
+                "type": "uint256"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "getRoleAdmin",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "grantRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "hasRole",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "initialize",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "__gameTokenPoolAddress"
+            },
+            {
+                "type": "address",
+                "name": "__digardClaimAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "onERC1155BatchReceived",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "_operator"
+            },
+            {
+                "type": "address",
+                "name": "_from"
+            },
+            {
+                "type": "uint256[]",
+                "name": "_ids"
+            },
+            {
+                "type": "uint256[]",
+                "name": "_values"
+            },
+            {
+                "type": "bytes",
+                "name": "_data"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes4"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "onERC1155Received",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "_operator"
+            },
+            {
+                "type": "address",
+                "name": "_from"
+            },
+            {
+                "type": "uint256",
+                "name": "_id"
+            },
+            {
+                "type": "uint256",
+                "name": "_value"
+            },
+            {
+                "type": "bytes",
+                "name": "_data"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bytes4"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "pause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "paused",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "proxiableUUID",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": [
+            {
+                "type": "bytes32"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "renounceRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "revokeRole",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role"
+            },
+            {
+                "type": "address",
+                "name": "account"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveDigardClaimAddress",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "__digardClaimAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveGameTokenPoolAddress",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "__gameTokenPoolAddress"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "saveMissions",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "tuple[]",
+                "name": "extMissions",
+                "components": [
+                    {
+                        "type": "tuple",
+                        "name": "mission",
+                        "components": [
+                            {
+                                "type": "uint256",
+                                "name": "missionId"
+                            },
+                            {
+                                "type": "uint256[3]",
+                                "name": "lockTime"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "numberOfRepetitions"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "paymentTokenAmount"
+                            },
+                            {
+                                "type": "address",
+                                "name": "paymentTokenAddress"
+                            },
+                            {
+                                "type": "string",
+                                "name": "missionUrl"
+                            },
+                            {
+                                "type": "tuple[]",
+                                "name": "rewards",
+                                "components": [
+                                    {
+                                        "type": "uint256",
+                                        "name": "claimRewardContractIndex"
+                                    },
+                                    {
+                                        "type": "uint256",
+                                        "name": "tokenId"
+                                    },
+                                    {
+                                        "type": "uint256",
+                                        "name": "amount"
+                                    },
+                                    {
+                                        "type": "address",
+                                        "name": "tokenAddress"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "type": "tuple[]",
+                        "name": "requirementNFTs",
+                        "components": [
+                            {
+                                "type": "address",
+                                "name": "tokenAddress"
+                            },
+                            {
+                                "type": "uint256[]",
+                                "name": "tokenIds"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "amount"
+                            },
+                            {
+                                "type": "uint256",
+                                "name": "burnRate"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "startMission",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "uint256",
+                "name": "missionId"
+            },
+            {
+                "type": "tuple[]",
+                "name": "missionRequirementNFTs",
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "tokenAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "burnRate"
+                    }
+                ]
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "supportsInterface",
+        "constant": true,
+        "stateMutability": "view",
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "bytes4",
+                "name": "interfaceId"
+            }
+        ],
+        "outputs": [
+            {
+                "type": "bool"
+            }
+        ]
+    },
+    {
+        "type": "function",
+        "name": "unpause",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeTo",
+        "constant": false,
+        "payable": false,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            }
+        ],
+        "outputs": []
+    },
+    {
+        "type": "function",
+        "name": "upgradeToAndCall",
+        "constant": false,
+        "stateMutability": "payable",
+        "payable": true,
+        "gas": 1100000,
+        "inputs": [
+            {
+                "type": "address",
+                "name": "newImplementation"
+            },
+            {
+                "type": "bytes",
+                "name": "data"
+            }
+        ],
+        "outputs": []
+    }
+]

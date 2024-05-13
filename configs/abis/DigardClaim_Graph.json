@@ -1,0 +1,368 @@
+[
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "AdminChanged",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "previousAdmin",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "newAdmin",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "BeaconUpgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "beacon",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ChangeNftClaimStatus",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "nftContractAddress",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenId",
+                "indexed": false
+            },
+            {
+                "type": "bool",
+                "name": "deactive",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ChangePlayerClaimLockStatus",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "lock",
+                "indexed": false
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "ClearPlayerClaim",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "clearToken",
+                "indexed": true
+            },
+            {
+                "type": "bool",
+                "name": "clearAllNftAssets",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "nftContractAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Initialized",
+        "inputs": [
+            {
+                "type": "uint8",
+                "name": "version",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Paused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PlayerClaimAdded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "tokenContractAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "nftContractAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            },
+            {
+                "type": "address",
+                "name": "executedAddress",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PlayerNftClaimed",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "tuple[]",
+                "name": "claimNftItems",
+                "indexed": false,
+                "components": [
+                    {
+                        "type": "address",
+                        "name": "nftContractAddress"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "tokenId"
+                    },
+                    {
+                        "type": "uint256",
+                        "name": "amount"
+                    },
+                    {
+                        "type": "bool",
+                        "name": "deactive"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "PlayerTokenClaimed",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "playerAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenAmount",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleAdminChanged",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "previousAdminRole",
+                "indexed": true
+            },
+            {
+                "type": "bytes32",
+                "name": "newAdminRole",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleGranted",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "RoleRevoked",
+        "inputs": [
+            {
+                "type": "bytes32",
+                "name": "role",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": true
+            },
+            {
+                "type": "address",
+                "name": "sender",
+                "indexed": true
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "SaveClaimRewardContractAddress",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "contractAddress",
+                "indexed": true
+            },
+            {
+                "type": "uint256",
+                "name": "tokenStandart",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Unpaused",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "account",
+                "indexed": false
+            }
+        ]
+    },
+    {
+        "type": "event",
+        "anonymous": false,
+        "name": "Upgraded",
+        "inputs": [
+            {
+                "type": "address",
+                "name": "implementation",
+                "indexed": true
+            }
+        ]
+    }
+]
